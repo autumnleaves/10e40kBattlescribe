@@ -1021,7 +1021,7 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="eaad-e519-6021-d100" name="Unit Size" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="eaad-e519-6021-d100" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="29ad-efdd-8e8f-a057">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0cb8-6e91-58ef-5cb3" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f99d-539c-fceb-72c6" type="max"/>
