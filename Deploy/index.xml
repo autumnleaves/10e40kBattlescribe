@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<dataIndex battleScribeVersion="2.03" name="Warhammer 40k 10th Edition" indexUrl="https://raw.githubusercontent.com/autumnleaves/10e40kBattlescribe/main/Deploy/index.bsi" xmlns="http://www.battlescribe.net/schema/dataIndexSchema">
+  <dataIndexEntries>
+    <dataIndexEntry filePath="Warhammer 40,000 10th Edition.gstz" dataType="gamesystem" dataId="508d-8863-3693-0919" dataName="Warhammer 40,000 10th Edition" dataBattleScribeVersion="2.03" dataRevision="1"/>
+    <dataIndexEntry filePath="Necrons.catz" dataType="catalogue" dataId="8181-de3d-2104-87f0" dataName="Necrons" dataBattleScribeVersion="2.03" dataRevision="1"/>
+  </dataIndexEntries>
+</dataIndex>
