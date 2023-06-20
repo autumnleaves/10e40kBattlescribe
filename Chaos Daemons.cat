@@ -5,6 +5,8 @@
     <categoryEntry id="7048-5134-9a26-24cf" name="Tzeentch" hidden="false"/>
     <categoryEntry id="6028-8efc-f7e7-237d" name="Slaanesh" hidden="false"/>
     <categoryEntry id="d088-3fe1-3372-8544" name="Nurgle" hidden="false"/>
+    <categoryEntry id="54a4-7b3a-ff90-f81f" name="Chaos" hidden="false"/>
+    <categoryEntry id="5178-ef3a-de70-0acd" name="Daemon" hidden="false"/>
   </categoryEntries>
   <selectionEntries>
     <selectionEntry id="5465-0f2a-9e5d-dad8" name="Skarbrand" hidden="false" collective="false" import="true" type="model">
@@ -24,6 +26,8 @@
         <categoryLink id="cf86-3079-5036-27ec" name="Monster" hidden="false" targetId="cbb1-8b0e-dbfc-95d4" primary="false"/>
         <categoryLink id="3ccf-3ba2-5c0f-c09a" name="Khorne" hidden="false" targetId="5d86-ceb8-2c7e-23da" primary="false"/>
         <categoryLink id="531a-684e-e00e-0550" name="New CategoryLink" hidden="false" targetId="ba7c-22cb-4f67-36f0" primary="true"/>
+        <categoryLink id="9907-0b8f-6cee-9ff9" name="Chaos" hidden="false" targetId="54a4-7b3a-ff90-f81f" primary="false"/>
+        <categoryLink id="7d60-d880-dcaf-529c" name="Daemon" hidden="false" targetId="5178-ef3a-de70-0acd" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="4c85-b374-ddb2-abeb" name="Warlord" hidden="false" collective="false" import="true" targetId="8d5c-0b32-5381-a21a" type="selectionEntry"/>
@@ -48,6 +52,8 @@
         <categoryLink id="aeed-c674-5ff8-90e1" name="Khorne" hidden="false" targetId="5d86-ceb8-2c7e-23da" primary="false"/>
         <categoryLink id="ce73-7cc3-c4e0-511f" name="New CategoryLink" hidden="false" targetId="d07f-a7ee-68a2-f17c" primary="true"/>
         <categoryLink id="66c0-d022-4b21-19d6" name="Infantry" hidden="false" targetId="30a3-f35e-ddbe-a643" primary="false"/>
+        <categoryLink id="2e35-2b11-3bdf-3b0d" name="Chaos" hidden="false" targetId="54a4-7b3a-ff90-f81f" primary="false"/>
+        <categoryLink id="4e45-f657-829d-1396" name="Daemon" hidden="false" targetId="5178-ef3a-de70-0acd" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="de57-0475-40d0-7995" name="Bodyguard" hidden="false" collective="false" import="true">
@@ -84,6 +90,8 @@
         <categoryLink id="e20d-add7-da97-ec2d" name="Khorne" hidden="false" targetId="5d86-ceb8-2c7e-23da" primary="false"/>
         <categoryLink id="f6bd-2c7a-403c-2554" name="Infantry" hidden="false" targetId="30a3-f35e-ddbe-a643" primary="false"/>
         <categoryLink id="a16c-409f-1c31-0c55" name="New CategoryLink" hidden="false" targetId="d07f-a7ee-68a2-f17c" primary="true"/>
+        <categoryLink id="925a-d148-cde3-bc71" name="Chaos" hidden="false" targetId="54a4-7b3a-ff90-f81f" primary="false"/>
+        <categoryLink id="c9eb-d761-99c4-41ed" name="Daemon" hidden="false" targetId="5178-ef3a-de70-0acd" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="9869-ddb4-96c1-a833" name="Bodyguard" hidden="false" collective="false" import="true">
@@ -118,6 +126,8 @@
         <categoryLink id="be76-14e1-85dd-aa54" name="Khorne" hidden="false" targetId="5d86-ceb8-2c7e-23da" primary="false"/>
         <categoryLink id="5674-c8b6-21f8-3654" name="Mounted" hidden="false" targetId="5e5c-3659-85f3-a5ee" primary="false"/>
         <categoryLink id="7751-5d6e-80f0-9de8" name="New CategoryLink" hidden="false" targetId="ba7c-22cb-4f67-36f0" primary="true"/>
+        <categoryLink id="fd3f-091b-7f86-bd39" name="Chaos" hidden="false" targetId="54a4-7b3a-ff90-f81f" primary="false"/>
+        <categoryLink id="7ee4-e049-b0d0-b68f" name="Daemon" hidden="false" targetId="5178-ef3a-de70-0acd" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="49e9-779c-383e-a868" name="Warlord" hidden="false" collective="false" import="true" targetId="8d5c-0b32-5381-a21a" type="selectionEntry"/>
@@ -144,6 +154,8 @@
         <categoryLink id="43ad-8d62-8587-2220" name="Khorne" hidden="false" targetId="5d86-ceb8-2c7e-23da" primary="false"/>
         <categoryLink id="1d6f-7e38-9ba3-37e4" name="New CategoryLink" hidden="false" targetId="ba7c-22cb-4f67-36f0" primary="true"/>
         <categoryLink id="dc11-7feb-3fe3-10d4" name="Fly" hidden="false" targetId="3390-2efa-78a1-5e24" primary="false"/>
+        <categoryLink id="0867-fe46-4a48-7537" name="Chaos" hidden="false" targetId="54a4-7b3a-ff90-f81f" primary="false"/>
+        <categoryLink id="3986-da7c-f2c9-5666" name="Daemon" hidden="false" targetId="5178-ef3a-de70-0acd" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="4aa5-51d6-a8b6-6e8f" name="Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="6e83-b94e-38a7-7828">
@@ -195,6 +207,8 @@
         <categoryLink id="8516-44ce-ced6-bbc5" name="Khorne" hidden="false" targetId="5d86-ceb8-2c7e-23da" primary="false"/>
         <categoryLink id="f103-b231-85f6-c885" name="Beasts" hidden="false" targetId="3ffb-b12f-27e4-9471" primary="false"/>
         <categoryLink id="d1b6-2bee-d9b4-048d" name="New CategoryLink" hidden="false" targetId="d07f-a7ee-68a2-f17c" primary="true"/>
+        <categoryLink id="b6ca-5ac6-82ec-00b3" name="Chaos" hidden="false" targetId="54a4-7b3a-ff90-f81f" primary="false"/>
+        <categoryLink id="42e9-2afc-e12d-9290" name="Daemon" hidden="false" targetId="5178-ef3a-de70-0acd" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="6dfb-1684-3820-0b61" name="Bodyguard" hidden="false" collective="false" import="true">
@@ -229,6 +243,8 @@
         <categoryLink id="e04d-ad43-5c04-3edd" name="Khorne" hidden="false" targetId="5d86-ceb8-2c7e-23da" primary="false"/>
         <categoryLink id="e3c4-d8f7-9dac-5565" name="New CategoryLink" hidden="false" targetId="d07f-a7ee-68a2-f17c" primary="true"/>
         <categoryLink id="2185-8313-a0b2-76a2" name="Mounted" hidden="false" targetId="5e5c-3659-85f3-a5ee" primary="false"/>
+        <categoryLink id="568b-dc0b-5485-790b" name="Chaos" hidden="false" targetId="54a4-7b3a-ff90-f81f" primary="false"/>
+        <categoryLink id="6486-e3a4-975a-091a" name="Daemon" hidden="false" targetId="5178-ef3a-de70-0acd" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="1c5e-1ac1-050b-8f2e" name="Bodyguard" hidden="false" collective="false" import="true">
@@ -263,6 +279,8 @@
         <categoryLink id="6ab3-4f55-413f-8011" name="Khorne" hidden="false" targetId="5d86-ceb8-2c7e-23da" primary="false"/>
         <categoryLink id="8323-4ef6-926e-42c6" name="New CategoryLink" hidden="false" targetId="ba7c-22cb-4f67-36f0" primary="true"/>
         <categoryLink id="4adb-0b01-00e6-5d51" name="Mounted" hidden="false" targetId="5e5c-3659-85f3-a5ee" primary="false"/>
+        <categoryLink id="1a19-61a3-aaf5-04c9" name="Chaos" hidden="false" targetId="54a4-7b3a-ff90-f81f" primary="false"/>
+        <categoryLink id="e980-9790-6d5a-a830" name="Daemon" hidden="false" targetId="5178-ef3a-de70-0acd" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="c597-7c48-b1fd-f5da" value="115.0"/>
@@ -282,6 +300,8 @@
       <categoryLinks>
         <categoryLink id="1c97-4b6f-05a6-9f69" name="Khorne" hidden="false" targetId="5d86-ceb8-2c7e-23da" primary="false"/>
         <categoryLink id="c7d7-d11a-58b2-84be" name="Fortification" hidden="false" targetId="cb18-d4f2-b6ee-3e79" primary="true"/>
+        <categoryLink id="ae5a-ea6b-2842-e4b4" name="Chaos" hidden="false" targetId="54a4-7b3a-ff90-f81f" primary="false"/>
+        <categoryLink id="f395-d618-fdc3-bb00" name="Daemon" hidden="false" targetId="5178-ef3a-de70-0acd" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="c597-7c48-b1fd-f5da" value="105.0"/>
@@ -296,28 +316,46 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="429f-dea2-767c-58f6" type="max"/>
           </constraints>
+          <costs>
+            <cost name="pts" typeId="c597-7c48-b1fd-f5da" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="d3d0-8a71-3993-a2f2" name="Hide Nurgle" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1305-6294-6a93-8a12" type="max"/>
           </constraints>
+          <costs>
+            <cost name="pts" typeId="c597-7c48-b1fd-f5da" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="5333-eb0f-b615-0a89" name="Hide Slaanesh" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="12a4-51e1-194a-f3ec" type="max"/>
           </constraints>
+          <costs>
+            <cost name="pts" typeId="c597-7c48-b1fd-f5da" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="4303-5251-d226-37b2" name="Hide Tzeentch" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="be4f-3462-7cea-864f" type="max"/>
           </constraints>
+          <costs>
+            <cost name="pts" typeId="c597-7c48-b1fd-f5da" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="bb7d-4f31-9472-0775" name="Hide Chaos Undivided" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="cb0a-7d09-ee90-7f36" type="max"/>
           </constraints>
+          <costs>
+            <cost name="pts" typeId="c597-7c48-b1fd-f5da" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="c597-7c48-b1fd-f5da" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="17b6-5ca1-d78d-b7cc" name="Kairos Fateweaver" hidden="false" collective="false" import="true" type="model">
       <modifiers>
@@ -338,6 +376,8 @@
         <categoryLink id="310f-cd34-c774-549f" name="Tzeentch" hidden="false" targetId="7048-5134-9a26-24cf" primary="false"/>
         <categoryLink id="db3e-fdce-2d54-6149" name="Psyker" hidden="false" targetId="8def-4493-1118-fa7e" primary="false"/>
         <categoryLink id="0cc4-3cec-15b7-18d1" name="Fly" hidden="false" targetId="3390-2efa-78a1-5e24" primary="false"/>
+        <categoryLink id="0742-232e-7bdf-1d99" name="Chaos" hidden="false" targetId="54a4-7b3a-ff90-f81f" primary="false"/>
+        <categoryLink id="be23-b149-7ccd-7a6d" name="Daemon" hidden="false" targetId="5178-ef3a-de70-0acd" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="a02f-a5ba-fec0-724a" name="Warlord" hidden="false" collective="false" import="true" targetId="8d5c-0b32-5381-a21a" type="selectionEntry"/>
@@ -364,6 +404,8 @@
         <categoryLink id="121e-1fda-0419-485a" name="Tzeentch" hidden="false" targetId="7048-5134-9a26-24cf" primary="false"/>
         <categoryLink id="5b31-cd70-6f60-fb8e" name="Psyker" hidden="false" targetId="8def-4493-1118-fa7e" primary="false"/>
         <categoryLink id="cad2-2e3b-5c5c-f2ce" name="Fly" hidden="false" targetId="3390-2efa-78a1-5e24" primary="false"/>
+        <categoryLink id="4d81-338e-6cb8-e1fa" name="Chaos" hidden="false" targetId="54a4-7b3a-ff90-f81f" primary="false"/>
+        <categoryLink id="a599-b3f5-be58-8fe6" name="Daemon" hidden="false" targetId="5178-ef3a-de70-0acd" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="9a68-dc5b-ba66-9ac7" name="Weapon" hidden="false" collective="false" import="true">
@@ -410,6 +452,8 @@
         <categoryLink id="1d8c-8176-03bf-f348" name="Tzeentch" hidden="false" targetId="7048-5134-9a26-24cf" primary="false"/>
         <categoryLink id="42bb-9e8c-21a4-1ecb" name="Psyker" hidden="false" targetId="8def-4493-1118-fa7e" primary="false"/>
         <categoryLink id="13b9-879f-c86c-9e17" name="Infantry" hidden="false" targetId="30a3-f35e-ddbe-a643" primary="false"/>
+        <categoryLink id="51eb-f15f-1905-8b22" name="Chaos" hidden="false" targetId="54a4-7b3a-ff90-f81f" primary="false"/>
+        <categoryLink id="8fb0-d031-d52a-dbe9" name="Daemon" hidden="false" targetId="5178-ef3a-de70-0acd" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="bf44-0d0a-77ac-a925" name="Warlord" hidden="false" collective="false" import="true" targetId="8d5c-0b32-5381-a21a" type="selectionEntry"/>
@@ -436,6 +480,8 @@
         <categoryLink id="08eb-7417-8c46-e0ef" name="Mounted" hidden="false" targetId="5e5c-3659-85f3-a5ee" primary="false"/>
         <categoryLink id="89ae-3615-7053-0053" name="Fly" hidden="false" targetId="3390-2efa-78a1-5e24" primary="false"/>
         <categoryLink id="abc9-ea25-a0f5-21cd" name="New CategoryLink" hidden="false" targetId="ba7c-22cb-4f67-36f0" primary="true"/>
+        <categoryLink id="5742-de22-6514-115b" name="Chaos" hidden="false" targetId="54a4-7b3a-ff90-f81f" primary="false"/>
+        <categoryLink id="db7c-9b3f-a144-3214" name="Daemon" hidden="false" targetId="5178-ef3a-de70-0acd" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="727b-a2dc-a140-941d" name="Warlord" hidden="false" collective="false" import="true" targetId="8d5c-0b32-5381-a21a" type="selectionEntry"/>
@@ -462,6 +508,8 @@
         <categoryLink id="0677-b845-4df7-531e" name="Mounted" hidden="false" targetId="5e5c-3659-85f3-a5ee" primary="false"/>
         <categoryLink id="7aad-dc9f-2960-f270" name="Fly" hidden="false" targetId="3390-2efa-78a1-5e24" primary="false"/>
         <categoryLink id="3e48-9117-199f-0eac" name="New CategoryLink" hidden="false" targetId="d07f-a7ee-68a2-f17c" primary="true"/>
+        <categoryLink id="80cd-d646-78bd-8889" name="Chaos" hidden="false" targetId="54a4-7b3a-ff90-f81f" primary="false"/>
+        <categoryLink id="88a9-8a17-1954-4c70" name="Daemon" hidden="false" targetId="5178-ef3a-de70-0acd" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="1a2a-6907-825a-3614" name="Bodyguard" hidden="false" collective="false" import="true">
@@ -496,6 +544,8 @@
         <categoryLink id="7bcf-ca62-9007-dfc8" name="Tzeentch" hidden="false" targetId="7048-5134-9a26-24cf" primary="false"/>
         <categoryLink id="3361-cdcb-f10f-e6e2" name="Mounted" hidden="false" targetId="5e5c-3659-85f3-a5ee" primary="false"/>
         <categoryLink id="6ffc-0695-af8a-15e9" name="New CategoryLink" hidden="false" targetId="ba7c-22cb-4f67-36f0" primary="true"/>
+        <categoryLink id="c5c5-4b84-f1e2-fde2" name="Chaos" hidden="false" targetId="54a4-7b3a-ff90-f81f" primary="false"/>
+        <categoryLink id="9d0f-a12c-e1f9-3da6" name="Daemon" hidden="false" targetId="5178-ef3a-de70-0acd" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="c597-7c48-b1fd-f5da" value="135.0"/>
@@ -519,6 +569,8 @@
         <categoryLink id="654f-1efe-ce12-f3b7" name="Mounted" hidden="false" targetId="5e5c-3659-85f3-a5ee" primary="false"/>
         <categoryLink id="5c63-0a7c-00e5-bee1" name="Fly" hidden="false" targetId="3390-2efa-78a1-5e24" primary="false"/>
         <categoryLink id="a013-fa0c-d62e-097d" name="New CategoryLink" hidden="false" targetId="d07f-a7ee-68a2-f17c" primary="true"/>
+        <categoryLink id="741a-c582-59fb-967a" name="Chaos" hidden="false" targetId="54a4-7b3a-ff90-f81f" primary="false"/>
+        <categoryLink id="0b18-024d-ce32-1b50" name="Daemon" hidden="false" targetId="5178-ef3a-de70-0acd" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="7ef7-51f0-603c-1bac" name="Bodyguard" hidden="false" collective="false" import="true">
@@ -556,6 +608,8 @@
         <categoryLink id="77b3-19ff-f552-0917" name="Fly" hidden="false" targetId="3390-2efa-78a1-5e24" primary="false"/>
         <categoryLink id="83d5-3719-ec8e-63ae" name="New CategoryLink" hidden="false" targetId="d07f-a7ee-68a2-f17c" primary="true"/>
         <categoryLink id="d9ca-f558-fabb-b500" name="Infantry" hidden="false" targetId="30a3-f35e-ddbe-a643" primary="false"/>
+        <categoryLink id="440c-af76-8979-6fad" name="Chaos" hidden="false" targetId="54a4-7b3a-ff90-f81f" primary="false"/>
+        <categoryLink id="8fbf-f4b1-e132-b31a" name="Daemon" hidden="false" targetId="5178-ef3a-de70-0acd" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="aa6c-7f8a-fa1e-a7e3" name="Bodyguard" hidden="false" collective="false" import="true">
@@ -583,12 +637,14 @@
         <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5d95-683e-e83c-c5ac" type="max"/>
       </constraints>
       <categoryLinks>
-        <categoryLink id="c6e2-3829-832b-befb" name="Characters" hidden="false" targetId="3c37-5b80-ab5c-a36a" primary="false"/>
         <categoryLink id="ba74-79af-0438-6cd7" name="Tzeentch" hidden="false" targetId="7048-5134-9a26-24cf" primary="false"/>
         <categoryLink id="dd1f-feec-af69-100f" name="Psyker" hidden="false" targetId="8def-4493-1118-fa7e" primary="false"/>
         <categoryLink id="2a94-144e-d60a-e4fa" name="Fly" hidden="false" targetId="3390-2efa-78a1-5e24" primary="false"/>
         <categoryLink id="f42f-5575-ef60-97d4" name="New CategoryLink" hidden="false" targetId="d07f-a7ee-68a2-f17c" primary="true"/>
         <categoryLink id="313f-e5bb-54d8-25f3" name="Infantry" hidden="false" targetId="30a3-f35e-ddbe-a643" primary="false"/>
+        <categoryLink id="0d89-1111-067d-5a4b" name="Chaos" hidden="false" targetId="54a4-7b3a-ff90-f81f" primary="false"/>
+        <categoryLink id="3467-d806-41ce-f42a" name="Characters" hidden="false" targetId="3c37-5b80-ab5c-a36a" primary="false"/>
+        <categoryLink id="690d-519d-4528-c769" name="Daemon" hidden="false" targetId="5178-ef3a-de70-0acd" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="2097-238d-92ba-322c" name="Bodyguard" hidden="false" collective="false" import="true">
@@ -627,6 +683,8 @@
         <categoryLink id="fa46-220e-483d-444f" name="New CategoryLink" hidden="false" targetId="ba7c-22cb-4f67-36f0" primary="true"/>
         <categoryLink id="17cc-f1bd-48a7-eda9" name="Psyker" hidden="false" targetId="8def-4493-1118-fa7e" primary="false"/>
         <categoryLink id="74f1-e3ca-f515-94c1" name="Nurgle" hidden="false" targetId="d088-3fe1-3372-8544" primary="false"/>
+        <categoryLink id="d9b1-771b-0549-d596" name="Chaos" hidden="false" targetId="54a4-7b3a-ff90-f81f" primary="false"/>
+        <categoryLink id="a56b-77fb-5c79-7aaa" name="Daemon" hidden="false" targetId="5178-ef3a-de70-0acd" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="6b74-361c-30c4-a070" name="Warlord" hidden="false" collective="false" import="true" targetId="8d5c-0b32-5381-a21a" type="selectionEntry"/>
@@ -652,6 +710,8 @@
         <categoryLink id="b95c-ab2a-3965-b386" name="New CategoryLink" hidden="false" targetId="ba7c-22cb-4f67-36f0" primary="true"/>
         <categoryLink id="aa5c-7b7e-d441-db57" name="Nurgle" hidden="false" targetId="d088-3fe1-3372-8544" primary="false"/>
         <categoryLink id="d261-a27d-9bd0-56bc" name="Psyker" hidden="false" targetId="8def-4493-1118-fa7e" primary="false"/>
+        <categoryLink id="fd46-1834-1d01-9abd" name="Chaos" hidden="false" targetId="54a4-7b3a-ff90-f81f" primary="false"/>
+        <categoryLink id="efc5-4845-d40f-01ef" name="Daemon" hidden="false" targetId="5178-ef3a-de70-0acd" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="02e9-2bef-52bb-959f" name="Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="6d19-e484-69ea-642e">
@@ -715,6 +775,8 @@
         <categoryLink id="b9b1-ebcd-0fcb-dd2d" name="Nurgle" hidden="false" targetId="d088-3fe1-3372-8544" primary="false"/>
         <categoryLink id="58a3-7475-0237-a073" name="Infantry" hidden="false" targetId="30a3-f35e-ddbe-a643" primary="false"/>
         <categoryLink id="24c2-e54e-c77c-95c5" name="New CategoryLink" hidden="false" targetId="d07f-a7ee-68a2-f17c" primary="true"/>
+        <categoryLink id="0440-2d4b-2866-74eb" name="Chaos" hidden="false" targetId="54a4-7b3a-ff90-f81f" primary="false"/>
+        <categoryLink id="e9d6-dc28-db89-a556" name="Daemon" hidden="false" targetId="5178-ef3a-de70-0acd" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="c083-def5-7058-07d8" name="Bodyguard" hidden="false" collective="false" import="true">
@@ -787,6 +849,8 @@
         <categoryLink id="5205-953c-fdb4-879e" name="Infantry" hidden="false" targetId="30a3-f35e-ddbe-a643" primary="false"/>
         <categoryLink id="0fa5-aae2-7911-c9f3" name="New CategoryLink" hidden="false" targetId="d07f-a7ee-68a2-f17c" primary="true"/>
         <categoryLink id="68f9-55c0-7ba2-2b94" name="Epic Hero" hidden="false" targetId="9c2a-84c2-6034-db09" primary="false"/>
+        <categoryLink id="1098-7ab1-1f19-568d" name="Chaos" hidden="false" targetId="54a4-7b3a-ff90-f81f" primary="false"/>
+        <categoryLink id="26f6-25b6-395e-5e61" name="Daemon" hidden="false" targetId="5178-ef3a-de70-0acd" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="55a3-1ae8-07c6-ae9f" name="Bodyguard" hidden="false" collective="false" import="true">
@@ -821,6 +885,8 @@
         <categoryLink id="1b40-e266-ec71-4c4d" name="Infantry" hidden="false" targetId="30a3-f35e-ddbe-a643" primary="false"/>
         <categoryLink id="7963-058f-643c-bfe0" name="New CategoryLink" hidden="false" targetId="d07f-a7ee-68a2-f17c" primary="true"/>
         <categoryLink id="2a18-4d8e-ddbf-693d" name="Nurgle" hidden="false" targetId="d088-3fe1-3372-8544" primary="false"/>
+        <categoryLink id="ec45-4514-3dce-568c" name="Chaos" hidden="false" targetId="54a4-7b3a-ff90-f81f" primary="false"/>
+        <categoryLink id="2386-e7e3-f3c4-60f7" name="Daemon" hidden="false" targetId="5178-ef3a-de70-0acd" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="157f-9382-8757-c8c9" name="Bodyguard" hidden="false" collective="false" import="true">
@@ -857,6 +923,8 @@
         <categoryLink id="233a-d8fb-79e4-3593" name="New CategoryLink" hidden="false" targetId="d07f-a7ee-68a2-f17c" primary="true"/>
         <categoryLink id="9838-1efe-c82e-09b1" name="Epic Hero" hidden="false" targetId="9c2a-84c2-6034-db09" primary="false"/>
         <categoryLink id="355b-d29a-9406-ba04" name="Mounted" hidden="false" targetId="5e5c-3659-85f3-a5ee" primary="false"/>
+        <categoryLink id="c4e1-57c3-32d4-e8e4" name="Chaos" hidden="false" targetId="54a4-7b3a-ff90-f81f" primary="false"/>
+        <categoryLink id="ecc1-3b65-4bb2-bdec" name="Daemon" hidden="false" targetId="5178-ef3a-de70-0acd" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="c7d6-401c-3371-8fec" name="Bodyguard" hidden="false" collective="false" import="true">
@@ -891,6 +959,8 @@
         <categoryLink id="171c-1b33-d346-2b8c" name="Battleline" hidden="false" targetId="1d18-1359-5a76-643d" primary="false"/>
         <categoryLink id="39ca-0bb1-d563-c46f" name="Nurgle" hidden="false" targetId="d088-3fe1-3372-8544" primary="false"/>
         <categoryLink id="9858-467d-621c-ed1d" name="Swarm" hidden="false" targetId="ae66-cbeb-4521-0238" primary="false"/>
+        <categoryLink id="3829-d112-8339-576d" name="Chaos" hidden="false" targetId="54a4-7b3a-ff90-f81f" primary="false"/>
+        <categoryLink id="3830-88f1-f814-41b4" name="Daemon" hidden="false" targetId="5178-ef3a-de70-0acd" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="95ee-74a4-11ce-7db6" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="4cbc-9469-8bec-c364">
@@ -937,17 +1007,25 @@
         <categoryLink id="0cff-772f-d011-380e" name="Nurgle" hidden="false" targetId="d088-3fe1-3372-8544" primary="false"/>
         <categoryLink id="8ba8-f6d4-3ac3-7558" name="Mounted" hidden="false" targetId="5e5c-3659-85f3-a5ee" primary="false"/>
         <categoryLink id="ff47-5916-2bbf-f8dc" name="Fly" hidden="false" targetId="3390-2efa-78a1-5e24" primary="false"/>
+        <categoryLink id="e5d2-97b9-13e8-313e" name="Chaos" hidden="false" targetId="54a4-7b3a-ff90-f81f" primary="false"/>
+        <categoryLink id="7078-1670-5cc1-665f" name="Daemon" hidden="false" targetId="5178-ef3a-de70-0acd" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="c0a5-9fc7-8cdb-267f" name="Daemonic Icon" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9c0f-05f5-c8ed-e803" type="max"/>
           </constraints>
+          <costs>
+            <cost name="pts" typeId="c597-7c48-b1fd-f5da" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="980e-0cdb-c3b0-79eb" name="Instrument of Chaos" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="68da-0eae-a777-3605" type="max"/>
           </constraints>
+          <costs>
+            <cost name="pts" typeId="c597-7c48-b1fd-f5da" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -988,6 +1066,8 @@
       <categoryLinks>
         <categoryLink id="3207-51f2-2c11-e822" name="Nurgle" hidden="false" targetId="d088-3fe1-3372-8544" primary="false"/>
         <categoryLink id="8973-6a68-9bae-2a6d" name="Fortification" hidden="false" targetId="cb18-d4f2-b6ee-3e79" primary="true"/>
+        <categoryLink id="5d6b-f018-06eb-88f7" name="Chaos" hidden="false" targetId="54a4-7b3a-ff90-f81f" primary="false"/>
+        <categoryLink id="6f0f-7a40-ad8e-0a08" name="Daemon" hidden="false" targetId="5178-ef3a-de70-0acd" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="c597-7c48-b1fd-f5da" value="100.0"/>
@@ -1010,6 +1090,8 @@
         <categoryLink id="5eb5-3c17-2549-5467" name="New CategoryLink" hidden="false" targetId="ba7c-22cb-4f67-36f0" primary="true"/>
         <categoryLink id="2c7d-2932-f649-0a4c" name="Psyker" hidden="false" targetId="8def-4493-1118-fa7e" primary="false"/>
         <categoryLink id="6eb2-710e-60c2-344c" name="Slaanesh" hidden="false" targetId="6028-8efc-f7e7-237d" primary="false"/>
+        <categoryLink id="2601-33d1-4ab4-3055" name="Chaos" hidden="false" targetId="54a4-7b3a-ff90-f81f" primary="false"/>
+        <categoryLink id="3ab8-994a-0b73-7afb" name="Daemon" hidden="false" targetId="5178-ef3a-de70-0acd" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="c1f6-338c-6f72-3a76" name="Equipment" hidden="false" collective="false" import="true">
@@ -1061,6 +1143,8 @@
         <categoryLink id="3b32-ef10-5847-e82a" name="New CategoryLink" hidden="false" targetId="ba7c-22cb-4f67-36f0" primary="true"/>
         <categoryLink id="b5df-d59f-02b3-d622" name="Psyker" hidden="false" targetId="8def-4493-1118-fa7e" primary="false"/>
         <categoryLink id="6fdd-e1ef-cfbf-189c" name="Slaanesh" hidden="false" targetId="6028-8efc-f7e7-237d" primary="false"/>
+        <categoryLink id="1b6d-a2ec-b05a-4fd6" name="Chaos" hidden="false" targetId="54a4-7b3a-ff90-f81f" primary="false"/>
+        <categoryLink id="ec0a-b9e6-a777-aab3" name="Daemon" hidden="false" targetId="5178-ef3a-de70-0acd" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="8db7-fce7-cef3-957e" name="Warlord" hidden="false" collective="false" import="true" targetId="8d5c-0b32-5381-a21a" type="selectionEntry"/>
@@ -1086,6 +1170,8 @@
         <categoryLink id="26e2-74cd-0087-085c" name="Infantry" hidden="false" targetId="30a3-f35e-ddbe-a643" primary="false"/>
         <categoryLink id="bf73-60e2-faa1-93bc" name="New CategoryLink" hidden="false" targetId="d07f-a7ee-68a2-f17c" primary="true"/>
         <categoryLink id="998e-a64e-c777-fa1d" name="Psyker" hidden="false" targetId="8def-4493-1118-fa7e" primary="false"/>
+        <categoryLink id="1cb2-4d45-9e6a-c6f5" name="Chaos" hidden="false" targetId="54a4-7b3a-ff90-f81f" primary="false"/>
+        <categoryLink id="4ae0-1c3d-bc63-517c" name="Daemon" hidden="false" targetId="5178-ef3a-de70-0acd" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="51e9-3cf8-d539-0b25" name="Bodyguard" hidden="false" collective="false" import="true">
@@ -1123,6 +1209,8 @@
         <categoryLink id="dfd2-c2fe-92dc-9c4d" name="New CategoryLink" hidden="false" targetId="ba7c-22cb-4f67-36f0" primary="true"/>
         <categoryLink id="151e-9155-0734-a9e9" name="Epic Hero" hidden="false" targetId="9c2a-84c2-6034-db09" primary="false"/>
         <categoryLink id="33f3-a224-972d-70a5" name="Fly" hidden="false" targetId="3390-2efa-78a1-5e24" primary="false"/>
+        <categoryLink id="9549-4910-6325-5a59" name="Chaos" hidden="false" targetId="54a4-7b3a-ff90-f81f" primary="false"/>
+        <categoryLink id="3d30-6d64-121d-c418" name="Daemon" hidden="false" targetId="5178-ef3a-de70-0acd" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="f1d1-750f-ae36-717f" name="Warlord" hidden="false" collective="false" import="true" targetId="8d5c-0b32-5381-a21a" type="selectionEntry"/>
@@ -1149,6 +1237,8 @@
         <categoryLink id="b4ea-5302-fbd5-d200" name="Epic Hero" hidden="false" targetId="9c2a-84c2-6034-db09" primary="false"/>
         <categoryLink id="d315-d51a-94f6-a0b9" name="Monster" hidden="false" targetId="cbb1-8b0e-dbfc-95d4" primary="false"/>
         <categoryLink id="aab0-6fa3-ae0c-4147" name="Psyker" hidden="false" targetId="8def-4493-1118-fa7e" primary="false"/>
+        <categoryLink id="1ae9-db54-1305-f46c" name="Chaos" hidden="false" targetId="54a4-7b3a-ff90-f81f" primary="false"/>
+        <categoryLink id="ed32-5c70-6e44-e809" name="Daemon" hidden="false" targetId="5178-ef3a-de70-0acd" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="277d-c131-fd02-b975" name="Bodyguard" hidden="false" collective="false" import="true">
@@ -1183,6 +1273,8 @@
         <categoryLink id="6d6b-dace-3d1c-7f39" name="Slaanesh" hidden="false" targetId="6028-8efc-f7e7-237d" primary="false"/>
         <categoryLink id="6b93-640e-b45d-7084" name="Infantry" hidden="false" targetId="30a3-f35e-ddbe-a643" primary="false"/>
         <categoryLink id="00bf-806b-faf5-bddc" name="New CategoryLink" hidden="false" targetId="d07f-a7ee-68a2-f17c" primary="true"/>
+        <categoryLink id="a558-7d76-769f-c422" name="Chaos" hidden="false" targetId="54a4-7b3a-ff90-f81f" primary="false"/>
+        <categoryLink id="9755-081f-7624-e5d8" name="Daemon" hidden="false" targetId="5178-ef3a-de70-0acd" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="6969-477b-25ab-4daa" name="Bodyguard" hidden="false" collective="false" import="true">
@@ -1219,6 +1311,8 @@
         <categoryLink id="4617-2577-2669-f5d7" name="Psyker" hidden="false" targetId="8def-4493-1118-fa7e" primary="false"/>
         <categoryLink id="b924-33b9-f2fc-8eec" name="Mounted" hidden="false" targetId="5e5c-3659-85f3-a5ee" primary="false"/>
         <categoryLink id="5402-2134-18ea-e548" name="New CategoryLink" hidden="false" targetId="ba7c-22cb-4f67-36f0" primary="true"/>
+        <categoryLink id="ae0e-3240-53d3-2854" name="Chaos" hidden="false" targetId="54a4-7b3a-ff90-f81f" primary="false"/>
+        <categoryLink id="6fdb-1ae1-9ea0-960c" name="Daemon" hidden="false" targetId="5178-ef3a-de70-0acd" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="b47c-d643-b7e0-7245" name="Warlord" hidden="false" collective="false" import="true" targetId="8d5c-0b32-5381-a21a" type="selectionEntry"/>
@@ -1245,6 +1339,8 @@
         <categoryLink id="e082-419f-2834-f794" name="Infantry" hidden="false" targetId="30a3-f35e-ddbe-a643" primary="false"/>
         <categoryLink id="3905-74a3-8950-7f87" name="New CategoryLink" hidden="false" targetId="d07f-a7ee-68a2-f17c" primary="true"/>
         <categoryLink id="7831-9b69-b590-7cc9" name="Psyker" hidden="false" targetId="8def-4493-1118-fa7e" primary="false"/>
+        <categoryLink id="8d33-0227-9499-ecd3" name="Chaos" hidden="false" targetId="54a4-7b3a-ff90-f81f" primary="false"/>
+        <categoryLink id="c30e-b7a6-b6a2-73d7" name="Daemon" hidden="false" targetId="5178-ef3a-de70-0acd" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="ba2b-f4af-e445-d420" name="Bodyguard" hidden="false" collective="false" import="true">
@@ -1279,6 +1375,8 @@
         <categoryLink id="3cdb-14d5-5313-eb84" name="New CategoryLink" hidden="false" targetId="ba7c-22cb-4f67-36f0" primary="true"/>
         <categoryLink id="ccb7-66ce-c5bd-33b7" name="Slaanesh" hidden="false" targetId="6028-8efc-f7e7-237d" primary="false"/>
         <categoryLink id="affb-fe7e-ce2f-6908" name="Beasts" hidden="false" targetId="3ffb-b12f-27e4-9471" primary="false"/>
+        <categoryLink id="34d0-b79e-4d5a-f1a2" name="Chaos" hidden="false" targetId="54a4-7b3a-ff90-f81f" primary="false"/>
+        <categoryLink id="5336-e0e2-6438-37c5" name="Daemon" hidden="false" targetId="5178-ef3a-de70-0acd" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="68a5-01af-112b-9449" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="ec51-4429-3d8c-97d6">
@@ -1319,17 +1417,25 @@
         <categoryLink id="6940-6fcd-50ef-2823" name="New CategoryLink" hidden="false" targetId="ba7c-22cb-4f67-36f0" primary="true"/>
         <categoryLink id="e47f-0332-32d1-bc0e" name="Slaanesh" hidden="false" targetId="6028-8efc-f7e7-237d" primary="false"/>
         <categoryLink id="56c7-93d0-3ec8-fd7c" name="Mounted" hidden="false" targetId="5e5c-3659-85f3-a5ee" primary="false"/>
+        <categoryLink id="91db-f459-590c-91f1" name="Chaos" hidden="false" targetId="54a4-7b3a-ff90-f81f" primary="false"/>
+        <categoryLink id="c577-23ae-fcd9-2dad" name="Daemon" hidden="false" targetId="5178-ef3a-de70-0acd" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="ebc3-62cb-ee1d-16f5" name="Daemonic Icon" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f99f-e67e-c84a-4618" type="max"/>
           </constraints>
+          <costs>
+            <cost name="pts" typeId="c597-7c48-b1fd-f5da" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="1738-d56a-bebf-9dd4" name="Instrument of Chaos" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3470-e7d6-c5c7-67a3" type="max"/>
           </constraints>
+          <costs>
+            <cost name="pts" typeId="c597-7c48-b1fd-f5da" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -1371,6 +1477,8 @@
         <categoryLink id="fe63-9bd8-e55f-bf17" name="New CategoryLink" hidden="false" targetId="ba7c-22cb-4f67-36f0" primary="true"/>
         <categoryLink id="7a1d-5c9f-387c-1888" name="Slaanesh" hidden="false" targetId="6028-8efc-f7e7-237d" primary="false"/>
         <categoryLink id="7590-eb48-eea3-8f0c" name="Mounted" hidden="false" targetId="5e5c-3659-85f3-a5ee" primary="false"/>
+        <categoryLink id="e24c-5765-20f9-0291" name="Chaos" hidden="false" targetId="54a4-7b3a-ff90-f81f" primary="false"/>
+        <categoryLink id="b986-8cb2-a1aa-a66d" name="Daemon" hidden="false" targetId="5178-ef3a-de70-0acd" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="9617-4442-5e90-2474" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="6e1c-3775-9658-8036">
@@ -1411,6 +1519,8 @@
         <categoryLink id="aa73-a1f4-ea06-cc1f" name="New CategoryLink" hidden="false" targetId="ba7c-22cb-4f67-36f0" primary="true"/>
         <categoryLink id="53dd-f7a8-e7dc-97a1" name="Slaanesh" hidden="false" targetId="6028-8efc-f7e7-237d" primary="false"/>
         <categoryLink id="2a5f-c0bc-2bec-a685" name="Mounted" hidden="false" targetId="5e5c-3659-85f3-a5ee" primary="false"/>
+        <categoryLink id="dccd-d5cf-3ef7-1e9c" name="Daemon" hidden="false" targetId="5178-ef3a-de70-0acd" primary="false"/>
+        <categoryLink id="8e71-e9a7-6b3a-f943" name="Chaos" hidden="false" targetId="54a4-7b3a-ff90-f81f" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="becb-aa5c-6675-3c70" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="a1fa-28de-cd72-4c5a">
@@ -1451,6 +1561,8 @@
         <categoryLink id="0cd0-aba3-8497-d0a4" name="New CategoryLink" hidden="false" targetId="ba7c-22cb-4f67-36f0" primary="true"/>
         <categoryLink id="cbd9-7786-30dc-f8f0" name="Slaanesh" hidden="false" targetId="6028-8efc-f7e7-237d" primary="false"/>
         <categoryLink id="f5f9-a747-c282-88d8" name="Mounted" hidden="false" targetId="5e5c-3659-85f3-a5ee" primary="false"/>
+        <categoryLink id="9a00-74b2-c067-2501" name="Chaos" hidden="false" targetId="54a4-7b3a-ff90-f81f" primary="false"/>
+        <categoryLink id="1a94-540a-2834-2ce6" name="Daemon" hidden="false" targetId="5178-ef3a-de70-0acd" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="c597-7c48-b1fd-f5da" value="115.0"/>
@@ -1474,6 +1586,8 @@
         <categoryLink id="0346-0fe4-3f5e-b5c0" name="Fly" hidden="false" targetId="3390-2efa-78a1-5e24" primary="false"/>
         <categoryLink id="1cea-db82-8f71-da99" name="Epic Hero" hidden="false" targetId="9c2a-84c2-6034-db09" primary="false"/>
         <categoryLink id="5557-446c-5150-2976" name="Psyker" hidden="false" targetId="8def-4493-1118-fa7e" primary="false"/>
+        <categoryLink id="747c-f6aa-3ae1-7ff5" name="Chaos" hidden="false" targetId="54a4-7b3a-ff90-f81f" primary="false"/>
+        <categoryLink id="af65-78ae-bacf-bb76" name="Daemon" hidden="false" targetId="5178-ef3a-de70-0acd" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="8643-0c50-e3ab-c3b1" name="Warlord" hidden="false" collective="false" import="true" targetId="8d5c-0b32-5381-a21a" type="selectionEntry">
@@ -1516,6 +1630,8 @@
         <categoryLink id="6df7-af5a-02c3-eb05" name="New CategoryLink" hidden="false" targetId="ba7c-22cb-4f67-36f0" primary="true"/>
         <categoryLink id="4827-0011-be33-0b73" name="Vehicle" hidden="false" targetId="54ca-d67c-189f-0d7b" primary="false"/>
         <categoryLink id="3467-00e0-b076-dffa" name="Walker" hidden="false" targetId="34a7-f05d-b5d6-0006" primary="false"/>
+        <categoryLink id="c0b2-8ac3-543e-1959" name="Chaos" hidden="false" targetId="54a4-7b3a-ff90-f81f" primary="false"/>
+        <categoryLink id="3fd4-410f-623d-0e78" name="Daemon" hidden="false" targetId="5178-ef3a-de70-0acd" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="82e7-847f-d032-9212" name="Daemonic Allegiance" hidden="false" collective="false" import="true">
@@ -1535,6 +1651,9 @@
               <categoryLinks>
                 <categoryLink id="d817-1f55-86c6-5830" name="Khorne" hidden="false" targetId="5d86-ceb8-2c7e-23da" primary="false"/>
               </categoryLinks>
+              <costs>
+                <cost name="pts" typeId="c597-7c48-b1fd-f5da" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="a0a2-35db-76b3-a64a" name="Slaanesh" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
@@ -1547,6 +1666,9 @@
               <categoryLinks>
                 <categoryLink id="2ebe-497a-73aa-dfc4" name="Slaanesh" hidden="false" targetId="6028-8efc-f7e7-237d" primary="false"/>
               </categoryLinks>
+              <costs>
+                <cost name="pts" typeId="c597-7c48-b1fd-f5da" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="63f9-a019-fc1c-357e" name="Nurgle" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
@@ -1559,6 +1681,9 @@
               <categoryLinks>
                 <categoryLink id="1a18-4660-a74d-9eef" name="Nurgle" hidden="false" targetId="d088-3fe1-3372-8544" primary="false"/>
               </categoryLinks>
+              <costs>
+                <cost name="pts" typeId="c597-7c48-b1fd-f5da" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="9b66-f339-cd86-16fd" name="Tzeentch" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
@@ -1571,6 +1696,9 @@
               <categoryLinks>
                 <categoryLink id="45ca-9ab4-cbfd-1e01" name="Tzeentch" hidden="false" targetId="7048-5134-9a26-24cf" primary="false"/>
               </categoryLinks>
+              <costs>
+                <cost name="pts" typeId="c597-7c48-b1fd-f5da" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -1609,6 +1737,8 @@
         <categoryLink id="db11-8c25-7133-b1b2" name="New CategoryLink" hidden="false" targetId="ba7c-22cb-4f67-36f0" primary="true"/>
         <categoryLink id="f170-798e-3f65-60f1" name="Monster" hidden="false" targetId="cbb1-8b0e-dbfc-95d4" primary="false"/>
         <categoryLink id="5213-1542-b9d2-462f" name="Characters" hidden="false" targetId="3c37-5b80-ab5c-a36a" primary="false"/>
+        <categoryLink id="70e1-dd96-fe13-f872" name="Chaos" hidden="false" targetId="54a4-7b3a-ff90-f81f" primary="false"/>
+        <categoryLink id="4be8-e132-f718-4c82" name="Daemon" hidden="false" targetId="5178-ef3a-de70-0acd" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="f628-7998-f4a9-cb59" name="Daemonic Allegiance" hidden="false" collective="false" import="true">
@@ -1628,6 +1758,9 @@
               <categoryLinks>
                 <categoryLink id="97df-0f26-f6bf-f0e8" name="Khorne" hidden="false" targetId="5d86-ceb8-2c7e-23da" primary="false"/>
               </categoryLinks>
+              <costs>
+                <cost name="pts" typeId="c597-7c48-b1fd-f5da" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="a376-0ecb-47d1-8f74" name="Slaanesh" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
@@ -1640,6 +1773,9 @@
               <categoryLinks>
                 <categoryLink id="cd9a-9085-65d1-df3a" name="Slaanesh" hidden="false" targetId="6028-8efc-f7e7-237d" primary="false"/>
               </categoryLinks>
+              <costs>
+                <cost name="pts" typeId="c597-7c48-b1fd-f5da" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="9fc9-37fb-ffbf-1035" name="Nurgle" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
@@ -1652,6 +1788,9 @@
               <categoryLinks>
                 <categoryLink id="cc36-af2b-c635-c190" name="Nurgle" hidden="false" targetId="d088-3fe1-3372-8544" primary="false"/>
               </categoryLinks>
+              <costs>
+                <cost name="pts" typeId="c597-7c48-b1fd-f5da" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="be0b-b28d-dab3-d805" name="Tzeentch" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
@@ -1664,6 +1803,9 @@
               <categoryLinks>
                 <categoryLink id="093d-caff-7db7-2637" name="Tzeentch" hidden="false" targetId="7048-5134-9a26-24cf" primary="false"/>
               </categoryLinks>
+              <costs>
+                <cost name="pts" typeId="c597-7c48-b1fd-f5da" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -1707,6 +1849,8 @@
         <categoryLink id="75e7-6763-c64f-d221" name="Monster" hidden="false" targetId="cbb1-8b0e-dbfc-95d4" primary="false"/>
         <categoryLink id="de9a-e335-7854-4992" name="Characters" hidden="false" targetId="3c37-5b80-ab5c-a36a" primary="false"/>
         <categoryLink id="c4d8-a990-ed95-f731" name="Fly" hidden="false" targetId="3390-2efa-78a1-5e24" primary="false"/>
+        <categoryLink id="d3e1-ff8d-b8f1-3aaa" name="Chaos" hidden="false" targetId="54a4-7b3a-ff90-f81f" primary="false"/>
+        <categoryLink id="0b67-14e2-c07f-e617" name="Daemon" hidden="false" targetId="5178-ef3a-de70-0acd" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="f6e6-0af3-bdad-4d7f" name="Daemonic Allegiance" hidden="false" collective="false" import="true">
@@ -1726,6 +1870,9 @@
               <categoryLinks>
                 <categoryLink id="af86-4ea3-7806-eb85" name="Khorne" hidden="false" targetId="5d86-ceb8-2c7e-23da" primary="false"/>
               </categoryLinks>
+              <costs>
+                <cost name="pts" typeId="c597-7c48-b1fd-f5da" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="c9a5-a1b9-b0ba-de50" name="Slaanesh" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
@@ -1738,6 +1885,9 @@
               <categoryLinks>
                 <categoryLink id="8eea-77d0-d235-8f35" name="Slaanesh" hidden="false" targetId="6028-8efc-f7e7-237d" primary="false"/>
               </categoryLinks>
+              <costs>
+                <cost name="pts" typeId="c597-7c48-b1fd-f5da" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="4fa4-67d9-b516-8d24" name="Nurgle" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
@@ -1750,6 +1900,9 @@
               <categoryLinks>
                 <categoryLink id="3fd7-508e-f3b6-5a1b" name="Nurgle" hidden="false" targetId="d088-3fe1-3372-8544" primary="false"/>
               </categoryLinks>
+              <costs>
+                <cost name="pts" typeId="c597-7c48-b1fd-f5da" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="39d5-22e3-e05d-2b29" name="Tzeentch" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
@@ -1762,6 +1915,9 @@
               <categoryLinks>
                 <categoryLink id="1935-f02d-89bb-75ab" name="Tzeentch" hidden="false" targetId="7048-5134-9a26-24cf" primary="false"/>
               </categoryLinks>
+              <costs>
+                <cost name="pts" typeId="c597-7c48-b1fd-f5da" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -1808,17 +1964,25 @@
         <categoryLink id="6f5d-b4a0-6d4d-8d5b" name="Khorne" hidden="false" targetId="5d86-ceb8-2c7e-23da" primary="false"/>
         <categoryLink id="a3d9-5cc9-3c59-8756" name="New CategoryLink" hidden="false" targetId="ba7c-22cb-4f67-36f0" primary="true"/>
         <categoryLink id="b636-6f3c-7d7a-c629" name="Mounted" hidden="false" targetId="5e5c-3659-85f3-a5ee" primary="false"/>
+        <categoryLink id="d1eb-43db-f575-1f9e" name="Chaos" hidden="false" targetId="54a4-7b3a-ff90-f81f" primary="false"/>
+        <categoryLink id="3111-93c4-4511-8f63" name="Daemon" hidden="false" targetId="5178-ef3a-de70-0acd" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="263e-6983-bdbd-1b25" name="Daemonic Icon" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5f9e-862a-3e08-e6e1" type="max"/>
           </constraints>
+          <costs>
+            <cost name="pts" typeId="c597-7c48-b1fd-f5da" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="8682-1706-3392-da60" name="Instrument of Chaos" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8b81-6266-21f2-00e7" type="max"/>
           </constraints>
+          <costs>
+            <cost name="pts" typeId="c597-7c48-b1fd-f5da" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -1866,17 +2030,25 @@
         <categoryLink id="7dc9-037d-2a1c-5e39" name="Infantry" hidden="false" targetId="30a3-f35e-ddbe-a643" primary="false"/>
         <categoryLink id="ae61-80d9-fc29-b665" name="New CategoryLink" hidden="false" targetId="ba7c-22cb-4f67-36f0" primary="true"/>
         <categoryLink id="40ed-ae43-6f39-0ffe" name="Battleline" hidden="false" targetId="1d18-1359-5a76-643d" primary="false"/>
+        <categoryLink id="85f1-c3e0-696e-8d6d" name="Daemon" hidden="false" targetId="5178-ef3a-de70-0acd" primary="false"/>
+        <categoryLink id="461c-b0f7-4732-5a3d" name="Chaos" hidden="false" targetId="54a4-7b3a-ff90-f81f" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="035c-7a31-8f6a-facf" name="Daemonic Icon" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fd4e-5413-f3f3-ebde" type="max"/>
           </constraints>
+          <costs>
+            <cost name="pts" typeId="c597-7c48-b1fd-f5da" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="2b07-c77d-171d-ceec" name="Instrument of Chaos" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9053-6c61-fac2-4924" type="max"/>
           </constraints>
+          <costs>
+            <cost name="pts" typeId="c597-7c48-b1fd-f5da" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
@@ -1903,6 +2075,8 @@
         <categoryLink id="ef12-7476-8829-327f" name="Khorne" hidden="false" targetId="5d86-ceb8-2c7e-23da" primary="false"/>
         <categoryLink id="ecaf-9cde-0155-3f28" name="New CategoryLink" hidden="false" targetId="ba7c-22cb-4f67-36f0" primary="true"/>
         <categoryLink id="5a83-eb08-2398-d4d4" name="Beasts" hidden="false" targetId="3ffb-b12f-27e4-9471" primary="false"/>
+        <categoryLink id="e0ae-00c8-e161-05b0" name="Chaos" hidden="false" targetId="54a4-7b3a-ff90-f81f" primary="false"/>
+        <categoryLink id="6b30-75a5-6dae-1f4f" name="Daemon" hidden="false" targetId="5178-ef3a-de70-0acd" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="e9e0-072a-9055-0945" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="eef8-0c30-628c-d9b9">
@@ -1954,6 +2128,8 @@
         <categoryLink id="382a-88f7-0b37-9e54" name="Tzeentch" hidden="false" targetId="7048-5134-9a26-24cf" primary="false"/>
         <categoryLink id="e3ef-940e-b65b-7b2a" name="New CategoryLink" hidden="false" targetId="ba7c-22cb-4f67-36f0" primary="true"/>
         <categoryLink id="9e37-dc66-fe77-0d55" name="Fly" hidden="false" targetId="3390-2efa-78a1-5e24" primary="false"/>
+        <categoryLink id="2bd1-4256-2c2a-2fca" name="Chaos" hidden="false" targetId="54a4-7b3a-ff90-f81f" primary="false"/>
+        <categoryLink id="7536-001a-2ca2-e0a7" name="Daemon" hidden="false" targetId="5178-ef3a-de70-0acd" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="51a4-c0b3-11f0-b124" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="210b-f03e-1167-eff4">
@@ -1975,6 +2151,9 @@
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="c597-7c48-b1fd-f5da" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="ae39-f9ba-840b-4aed" name="Pink Horrors" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
@@ -2002,17 +2181,25 @@
         <categoryLink id="0d78-285f-e039-9747" name="Tzeentch" hidden="false" targetId="7048-5134-9a26-24cf" primary="false"/>
         <categoryLink id="6f0b-c162-35d1-a55e" name="New CategoryLink" hidden="false" targetId="ba7c-22cb-4f67-36f0" primary="true"/>
         <categoryLink id="1e57-f930-0110-c1db" name="Battleline" hidden="false" targetId="1d18-1359-5a76-643d" primary="false"/>
+        <categoryLink id="f270-d514-41f3-1493" name="Chaos" hidden="false" targetId="54a4-7b3a-ff90-f81f" primary="false"/>
+        <categoryLink id="f214-49b2-b83e-588e" name="Daemon" hidden="false" targetId="5178-ef3a-de70-0acd" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="051f-7bd9-46a7-fb7f" name="Instrument of Chaos" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="32cb-f181-788b-a4c5" type="max"/>
           </constraints>
+          <costs>
+            <cost name="pts" typeId="c597-7c48-b1fd-f5da" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="4875-e4fb-3b1a-5763" name="Daemonic Icon" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="37c5-71ec-c04c-05f2" type="max"/>
           </constraints>
+          <costs>
+            <cost name="pts" typeId="c597-7c48-b1fd-f5da" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
@@ -2045,6 +2232,8 @@
         <categoryLink id="371b-adf5-b52a-b85d" name="Tzeentch" hidden="false" targetId="7048-5134-9a26-24cf" primary="false"/>
         <categoryLink id="e90b-6040-592a-3445" name="New CategoryLink" hidden="false" targetId="ba7c-22cb-4f67-36f0" primary="true"/>
         <categoryLink id="583d-0c7d-c26e-059c" name="Battleline" hidden="false" targetId="1d18-1359-5a76-643d" primary="false"/>
+        <categoryLink id="4645-557e-65f2-6115" name="Chaos" hidden="false" targetId="54a4-7b3a-ff90-f81f" primary="false"/>
+        <categoryLink id="0a2e-52b1-7113-392f" name="Daemon" hidden="false" targetId="5178-ef3a-de70-0acd" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="c597-7c48-b1fd-f5da" value="125.0"/>
@@ -2076,6 +2265,8 @@
         <categoryLink id="29bd-a2a5-aabb-add5" name="Tzeentch" hidden="false" targetId="7048-5134-9a26-24cf" primary="false"/>
         <categoryLink id="b5ab-2bda-c0d5-dcb2" name="New CategoryLink" hidden="false" targetId="ba7c-22cb-4f67-36f0" primary="true"/>
         <categoryLink id="5659-7c99-dcb4-c9cb" name="Battleline" hidden="false" targetId="1d18-1359-5a76-643d" primary="false"/>
+        <categoryLink id="5b36-83f4-07d7-0aac" name="Chaos" hidden="false" targetId="54a4-7b3a-ff90-f81f" primary="false"/>
+        <categoryLink id="81b3-a2af-dce0-0e80" name="Daemon" hidden="false" targetId="5178-ef3a-de70-0acd" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="7e4c-71d3-d296-62cc" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="4439-3842-7180-0df7">
@@ -2097,6 +2288,9 @@
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="c597-7c48-b1fd-f5da" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="a8a9-22ac-9e96-1164" name="Plaguebearers" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
@@ -2119,17 +2313,25 @@
         <categoryLink id="c353-d954-8472-aa17" name="New CategoryLink" hidden="false" targetId="ba7c-22cb-4f67-36f0" primary="true"/>
         <categoryLink id="5848-2e52-d830-6f3e" name="Battleline" hidden="false" targetId="1d18-1359-5a76-643d" primary="false"/>
         <categoryLink id="cb24-ca68-e8ed-d44b" name="Nurgle" hidden="false" targetId="d088-3fe1-3372-8544" primary="false"/>
+        <categoryLink id="a727-bc86-42ab-891e" name="Chaos" hidden="false" targetId="54a4-7b3a-ff90-f81f" primary="false"/>
+        <categoryLink id="f662-e156-3ae1-6e78" name="Daemon" hidden="false" targetId="5178-ef3a-de70-0acd" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="8245-1786-ab31-cb64" name="Daemonic Icon" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3f8f-21d6-50fc-f371" type="max"/>
           </constraints>
+          <costs>
+            <cost name="pts" typeId="c597-7c48-b1fd-f5da" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="7b5e-0de6-fca4-4e1f" name="Instrument of Chaos" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1551-c9aa-978b-389b" type="max"/>
           </constraints>
+          <costs>
+            <cost name="pts" typeId="c597-7c48-b1fd-f5da" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
@@ -2156,6 +2358,8 @@
         <categoryLink id="06b7-6083-1bca-5a69" name="New CategoryLink" hidden="false" targetId="ba7c-22cb-4f67-36f0" primary="true"/>
         <categoryLink id="b4b6-3a07-9348-66fd" name="Nurgle" hidden="false" targetId="d088-3fe1-3372-8544" primary="false"/>
         <categoryLink id="0660-95f4-a5d4-8144" name="Beasts" hidden="false" targetId="3ffb-b12f-27e4-9471" primary="false"/>
+        <categoryLink id="4c5f-f6dd-a76a-f4ef" name="Chaos" hidden="false" targetId="54a4-7b3a-ff90-f81f" primary="false"/>
+        <categoryLink id="3d9b-e9f2-bc22-1db7" name="Daemon" hidden="false" targetId="5178-ef3a-de70-0acd" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="92c1-c922-d735-1510" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="f217-0dcf-28cc-0b66">
@@ -2202,17 +2406,25 @@
         <categoryLink id="1e2e-3f9e-c715-71ff" name="New CategoryLink" hidden="false" targetId="ba7c-22cb-4f67-36f0" primary="true"/>
         <categoryLink id="bcb8-04a0-3613-e753" name="Battleline" hidden="false" targetId="1d18-1359-5a76-643d" primary="false"/>
         <categoryLink id="7184-1ebe-92ee-8448" name="Slaanesh" hidden="false" targetId="6028-8efc-f7e7-237d" primary="false"/>
+        <categoryLink id="95bb-792d-b91d-c6de" name="Daemon" hidden="false" targetId="5178-ef3a-de70-0acd" primary="false"/>
+        <categoryLink id="3765-c9d4-5159-f406" name="Chaos" hidden="false" targetId="54a4-7b3a-ff90-f81f" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="58db-ecbd-7804-ac1a" name="Daemonic Icon" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ead7-b08c-bd18-6d3c" type="max"/>
           </constraints>
+          <costs>
+            <cost name="pts" typeId="c597-7c48-b1fd-f5da" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="caf0-cb04-5682-1a5b" name="Instrument of Chaos" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="48fa-4cc5-9e46-6ac9" type="max"/>
           </constraints>
+          <costs>
+            <cost name="pts" typeId="c597-7c48-b1fd-f5da" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
