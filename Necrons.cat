@@ -1426,6 +1426,7 @@
       <categoryLinks>
         <categoryLink id="e5e9-8522-ed82-10da" name="Battleline" hidden="false" targetId="ba7c-22cb-4f67-36f0" primary="true"/>
         <categoryLink id="9f76-b14c-31af-ea79" name="Infantry" hidden="false" targetId="30a3-f35e-ddbe-a643" primary="false"/>
+        <categoryLink id="8727-33ef-c0c5-ec00" name="Battleline" hidden="false" targetId="1d18-1359-5a76-643d" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="534d-cf1c-42c8-286e" name="Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="fa48-5c22-5fb2-b84e">
@@ -1494,6 +1495,7 @@
       <categoryLinks>
         <categoryLink id="930c-cf20-42b5-2877" name="Battleline" hidden="false" targetId="ba7c-22cb-4f67-36f0" primary="true"/>
         <categoryLink id="dc3b-71e9-813f-c8ca" name="Infantry" hidden="false" targetId="30a3-f35e-ddbe-a643" primary="false"/>
+        <categoryLink id="57ca-7076-d5f6-da76" name="Battleline" hidden="false" targetId="1d18-1359-5a76-643d" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="d5a4-9424-1d99-103a" name="Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="fa79-d28d-a135-451a">

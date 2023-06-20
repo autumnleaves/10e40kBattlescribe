@@ -1,0 +1,2293 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="7936-cca5-33a3-98ab" name="Chaos Daemons" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="508d-8863-3693-0919" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <categoryEntries>
+    <categoryEntry id="5d86-ceb8-2c7e-23da" name="Khorne" hidden="false"/>
+    <categoryEntry id="7048-5134-9a26-24cf" name="Tzeentch" hidden="false"/>
+    <categoryEntry id="6028-8efc-f7e7-237d" name="Slaanesh" hidden="false"/>
+    <categoryEntry id="d088-3fe1-3372-8544" name="Nurgle" hidden="false"/>
+  </categoryEntries>
+  <selectionEntries>
+    <selectionEntry id="5465-0f2a-9e5d-dad8" name="Skarbrand" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="64c8-99cc-b517-c173" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="72b1-691b-c0e3-c77f" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="17ea-fc95-f6b9-bc87" name="Characters" hidden="false" targetId="3c37-5b80-ab5c-a36a" primary="false"/>
+        <categoryLink id="62cb-819b-0f03-1419" name="Epic Hero" hidden="false" targetId="9c2a-84c2-6034-db09" primary="false"/>
+        <categoryLink id="cf86-3079-5036-27ec" name="Monster" hidden="false" targetId="cbb1-8b0e-dbfc-95d4" primary="false"/>
+        <categoryLink id="3ccf-3ba2-5c0f-c09a" name="Khorne" hidden="false" targetId="5d86-ceb8-2c7e-23da" primary="false"/>
+        <categoryLink id="531a-684e-e00e-0550" name="New CategoryLink" hidden="false" targetId="ba7c-22cb-4f67-36f0" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="4c85-b374-ddb2-abeb" name="Warlord" hidden="false" collective="false" import="true" targetId="8d5c-0b32-5381-a21a" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="c597-7c48-b1fd-f5da" value="365.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f147-eee1-f85d-23e2" name="Bloodmaster" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="64c8-99cc-b517-c173" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="2412-967e-0fb1-d3a2" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="a649-7592-3eb7-82d8" name="Characters" hidden="false" targetId="3c37-5b80-ab5c-a36a" primary="false"/>
+        <categoryLink id="aeed-c674-5ff8-90e1" name="Khorne" hidden="false" targetId="5d86-ceb8-2c7e-23da" primary="false"/>
+        <categoryLink id="ce73-7cc3-c4e0-511f" name="New CategoryLink" hidden="false" targetId="d07f-a7ee-68a2-f17c" primary="true"/>
+        <categoryLink id="66c0-d022-4b21-19d6" name="Infantry" hidden="false" targetId="30a3-f35e-ddbe-a643" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="de57-0475-40d0-7995" name="Bodyguard" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e9fe-673f-cae6-86f0" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="c069-6829-f4c9-5c39" name="Bloodletters" hidden="false" collective="false" import="true" targetId="2406-80e6-1e43-a53b" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="3b26-1fa6-4960-37d0" name="Warlord" hidden="false" collective="false" import="true" targetId="8d5c-0b32-5381-a21a" type="selectionEntry"/>
+        <entryLink id="e97f-b50b-a687-200b" name="Enhancements" hidden="false" collective="false" import="true" targetId="91a8-7602-4295-3187" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="c597-7c48-b1fd-f5da" value="85.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6b72-fa11-288c-d040" name="Skulltaker" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="64c8-99cc-b517-c173" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7dba-4022-4ba4-26e3" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="05f9-c77c-1a09-d90e" name="Characters" hidden="false" targetId="3c37-5b80-ab5c-a36a" primary="false"/>
+        <categoryLink id="d50e-c3e5-dc13-dae2" name="Epic Hero" hidden="false" targetId="9c2a-84c2-6034-db09" primary="false"/>
+        <categoryLink id="e20d-add7-da97-ec2d" name="Khorne" hidden="false" targetId="5d86-ceb8-2c7e-23da" primary="false"/>
+        <categoryLink id="f6bd-2c7a-403c-2554" name="Infantry" hidden="false" targetId="30a3-f35e-ddbe-a643" primary="false"/>
+        <categoryLink id="a16c-409f-1c31-0c55" name="New CategoryLink" hidden="false" targetId="d07f-a7ee-68a2-f17c" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="9869-ddb4-96c1-a833" name="Bodyguard" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4ea2-7856-0f6f-fe83" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="1f7e-6c40-1fbe-ca00" name="Bloodletters" hidden="false" collective="false" import="true" targetId="2406-80e6-1e43-a53b" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="6c26-1e0f-d992-a6ba" name="Warlord" hidden="false" collective="false" import="true" targetId="8d5c-0b32-5381-a21a" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="c597-7c48-b1fd-f5da" value="95.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="54e6-baf4-416a-0136" name="Rendmaster on Blood Throne" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="64c8-99cc-b517-c173" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1aa6-9769-e62a-5e07" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="5540-0fa4-90b6-6c5e" name="Characters" hidden="false" targetId="3c37-5b80-ab5c-a36a" primary="false"/>
+        <categoryLink id="be76-14e1-85dd-aa54" name="Khorne" hidden="false" targetId="5d86-ceb8-2c7e-23da" primary="false"/>
+        <categoryLink id="5674-c8b6-21f8-3654" name="Mounted" hidden="false" targetId="5e5c-3659-85f3-a5ee" primary="false"/>
+        <categoryLink id="7751-5d6e-80f0-9de8" name="New CategoryLink" hidden="false" targetId="ba7c-22cb-4f67-36f0" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="49e9-779c-383e-a868" name="Warlord" hidden="false" collective="false" import="true" targetId="8d5c-0b32-5381-a21a" type="selectionEntry"/>
+        <entryLink id="a1b7-4aa8-3535-c9bc" name="Enhancements" hidden="false" collective="false" import="true" targetId="91a8-7602-4295-3187" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="c597-7c48-b1fd-f5da" value="150.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="708b-ec84-c5ea-ad1d" name="Bloodthirster" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="64c8-99cc-b517-c173" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="edf4-af70-e068-25ca" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="a732-9388-48c9-f350" name="Characters" hidden="false" targetId="3c37-5b80-ab5c-a36a" primary="false"/>
+        <categoryLink id="7364-f811-5fdb-5000" name="Monster" hidden="false" targetId="cbb1-8b0e-dbfc-95d4" primary="false"/>
+        <categoryLink id="43ad-8d62-8587-2220" name="Khorne" hidden="false" targetId="5d86-ceb8-2c7e-23da" primary="false"/>
+        <categoryLink id="1d6f-7e38-9ba3-37e4" name="New CategoryLink" hidden="false" targetId="ba7c-22cb-4f67-36f0" primary="true"/>
+        <categoryLink id="dc11-7feb-3fe3-10d4" name="Fly" hidden="false" targetId="3390-2efa-78a1-5e24" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="4aa5-51d6-a8b6-6e8f" name="Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="6e83-b94e-38a7-7828">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9b98-cc9a-b430-1e1b" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="485e-611d-e932-f7bb" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="6e83-b94e-38a7-7828" name="Great Axe of Khorne" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="c597-7c48-b1fd-f5da" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="0fd7-00ba-5e0f-1542" name="Axe of Khorne &amp; Bloodflail" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="c597-7c48-b1fd-f5da" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="6f03-b001-a792-c3b7" name="Axe of Khorne &amp; Lash of Khorne" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="c597-7c48-b1fd-f5da" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="3b05-c7c6-91ab-f2ce" name="Warlord" hidden="false" collective="false" import="true" targetId="8d5c-0b32-5381-a21a" type="selectionEntry"/>
+        <entryLink id="c07c-2586-a473-4174" name="Enhancements" hidden="false" collective="false" import="true" targetId="91a8-7602-4295-3187" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="c597-7c48-b1fd-f5da" value="300.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e011-4357-8c1c-360c" name="Karanak" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="64c8-99cc-b517-c173" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="172a-2e16-bb16-3f2e" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="0ad6-60d1-f00c-a28c" name="Characters" hidden="false" targetId="3c37-5b80-ab5c-a36a" primary="false"/>
+        <categoryLink id="93a7-1afc-fec1-c546" name="Epic Hero" hidden="false" targetId="9c2a-84c2-6034-db09" primary="false"/>
+        <categoryLink id="8516-44ce-ced6-bbc5" name="Khorne" hidden="false" targetId="5d86-ceb8-2c7e-23da" primary="false"/>
+        <categoryLink id="f103-b231-85f6-c885" name="Beasts" hidden="false" targetId="3ffb-b12f-27e4-9471" primary="false"/>
+        <categoryLink id="d1b6-2bee-d9b4-048d" name="New CategoryLink" hidden="false" targetId="d07f-a7ee-68a2-f17c" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="6dfb-1684-3820-0b61" name="Bodyguard" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="18e0-ba3b-2258-92e8" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="e3e0-0902-dcd6-d63d" name="Flesh Hounds" hidden="false" collective="false" import="true" targetId="9d32-28ba-60c6-6911" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="6148-99fa-ef57-6092" name="Warlord" hidden="false" collective="false" import="true" targetId="8d5c-0b32-5381-a21a" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="c597-7c48-b1fd-f5da" value="85.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f4ce-c71b-bbf4-32a5" name="Skullmaster" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="64c8-99cc-b517-c173" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="08a7-250a-c4bb-4af9" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="fe5d-436e-f32b-158f" name="Characters" hidden="false" targetId="3c37-5b80-ab5c-a36a" primary="false"/>
+        <categoryLink id="e04d-ad43-5c04-3edd" name="Khorne" hidden="false" targetId="5d86-ceb8-2c7e-23da" primary="false"/>
+        <categoryLink id="e3c4-d8f7-9dac-5565" name="New CategoryLink" hidden="false" targetId="d07f-a7ee-68a2-f17c" primary="true"/>
+        <categoryLink id="2185-8313-a0b2-76a2" name="Mounted" hidden="false" targetId="5e5c-3659-85f3-a5ee" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="1c5e-1ac1-050b-8f2e" name="Bodyguard" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e8bb-311c-a6e7-f596" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="56eb-eba4-fa41-dd1e" name="Bloodcrushers" hidden="false" collective="false" import="true" targetId="2ffa-b1a2-cd89-584b" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="48ff-663a-0b68-dc0f" name="Warlord" hidden="false" collective="false" import="true" targetId="8d5c-0b32-5381-a21a" type="selectionEntry"/>
+        <entryLink id="5807-48e8-5b44-bcde" name="Enhancements" hidden="false" collective="false" import="true" targetId="91a8-7602-4295-3187" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="c597-7c48-b1fd-f5da" value="105.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6f51-5992-ba6d-46b4" name="Skull Cannon" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="64c8-99cc-b517-c173" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="3d25-70f7-7e4e-4ed7" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="6ab3-4f55-413f-8011" name="Khorne" hidden="false" targetId="5d86-ceb8-2c7e-23da" primary="false"/>
+        <categoryLink id="8323-4ef6-926e-42c6" name="New CategoryLink" hidden="false" targetId="ba7c-22cb-4f67-36f0" primary="true"/>
+        <categoryLink id="4adb-0b01-00e6-5d51" name="Mounted" hidden="false" targetId="5e5c-3659-85f3-a5ee" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="c597-7c48-b1fd-f5da" value="115.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b887-a928-8c60-ae72" name="Skull Altar" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="64c8-99cc-b517-c173" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9902-268d-655d-cb97" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="1c97-4b6f-05a6-9f69" name="Khorne" hidden="false" targetId="5d86-ceb8-2c7e-23da" primary="false"/>
+        <categoryLink id="c7d7-d11a-58b2-84be" name="Fortification" hidden="false" targetId="cb18-d4f2-b6ee-3e79" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="c597-7c48-b1fd-f5da" value="105.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6eb3-be75-a9b7-fd3b" name="Filter" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" id="23d0-4f9d-ce31-8700" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="64c8-99cc-b517-c173" name="Hide Khorne" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="429f-dea2-767c-58f6" type="max"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry id="d3d0-8a71-3993-a2f2" name="Hide Nurgle" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1305-6294-6a93-8a12" type="max"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry id="5333-eb0f-b615-0a89" name="Hide Slaanesh" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="12a4-51e1-194a-f3ec" type="max"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry id="4303-5251-d226-37b2" name="Hide Tzeentch" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="be4f-3462-7cea-864f" type="max"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry id="bb7d-4f31-9472-0775" name="Hide Chaos Undivided" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="cb0a-7d09-ee90-7f36" type="max"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry id="17b6-5ca1-d78d-b7cc" name="Kairos Fateweaver" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4303-5251-d226-37b2" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4511-b3ab-c3bc-f0f4" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="f10e-68aa-3c70-6e2f" name="Characters" hidden="false" targetId="3c37-5b80-ab5c-a36a" primary="false"/>
+        <categoryLink id="4322-ed37-82d7-be41" name="Epic Hero" hidden="false" targetId="9c2a-84c2-6034-db09" primary="false"/>
+        <categoryLink id="f317-2d53-09a7-98dd" name="Monster" hidden="false" targetId="cbb1-8b0e-dbfc-95d4" primary="false"/>
+        <categoryLink id="ac5a-9ebe-4ac9-5275" name="New CategoryLink" hidden="false" targetId="ba7c-22cb-4f67-36f0" primary="true"/>
+        <categoryLink id="310f-cd34-c774-549f" name="Tzeentch" hidden="false" targetId="7048-5134-9a26-24cf" primary="false"/>
+        <categoryLink id="db3e-fdce-2d54-6149" name="Psyker" hidden="false" targetId="8def-4493-1118-fa7e" primary="false"/>
+        <categoryLink id="0cc4-3cec-15b7-18d1" name="Fly" hidden="false" targetId="3390-2efa-78a1-5e24" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="a02f-a5ba-fec0-724a" name="Warlord" hidden="false" collective="false" import="true" targetId="8d5c-0b32-5381-a21a" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="c597-7c48-b1fd-f5da" value="285.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="cf16-abfa-8a8f-13f0" name="Lord of Change" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4303-5251-d226-37b2" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ff1d-8bc1-8b77-34c5" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="bba6-fec7-e403-6560" name="Characters" hidden="false" targetId="3c37-5b80-ab5c-a36a" primary="false"/>
+        <categoryLink id="c159-d5fb-3063-ffaa" name="Monster" hidden="false" targetId="cbb1-8b0e-dbfc-95d4" primary="false"/>
+        <categoryLink id="ffd5-0f24-3a42-851c" name="New CategoryLink" hidden="false" targetId="ba7c-22cb-4f67-36f0" primary="true"/>
+        <categoryLink id="121e-1fda-0419-485a" name="Tzeentch" hidden="false" targetId="7048-5134-9a26-24cf" primary="false"/>
+        <categoryLink id="5b31-cd70-6f60-fb8e" name="Psyker" hidden="false" targetId="8def-4493-1118-fa7e" primary="false"/>
+        <categoryLink id="cad2-2e3b-5c5c-f2ce" name="Fly" hidden="false" targetId="3390-2efa-78a1-5e24" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="9a68-dc5b-ba66-9ac7" name="Weapon" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7c54-c0d4-2e8e-e71f" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="07f2-d4ee-4b69-fbe6" name="Baleful Sword" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="c597-7c48-b1fd-f5da" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="51fb-ffbd-debb-7fd1" name="Rod of Sorcery" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="c597-7c48-b1fd-f5da" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="62eb-b68c-20f0-8580" name="Warlord" hidden="false" collective="false" import="true" targetId="8d5c-0b32-5381-a21a" type="selectionEntry"/>
+        <entryLink id="c063-a9a9-80f6-5cab" name="Enhancements" hidden="false" collective="false" import="true" targetId="91a8-7602-4295-3187" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="c597-7c48-b1fd-f5da" value="230.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d115-e6d6-b407-dea2" name="The Changeling" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4303-5251-d226-37b2" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5a42-2258-1c24-ecc4" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="476d-d7a7-efd5-5a82" name="Characters" hidden="false" targetId="3c37-5b80-ab5c-a36a" primary="false"/>
+        <categoryLink id="bb0c-d7a0-0227-483c" name="Epic Hero" hidden="false" targetId="9c2a-84c2-6034-db09" primary="false"/>
+        <categoryLink id="f565-2e72-b60c-d9fb" name="New CategoryLink" hidden="false" targetId="ba7c-22cb-4f67-36f0" primary="true"/>
+        <categoryLink id="1d8c-8176-03bf-f348" name="Tzeentch" hidden="false" targetId="7048-5134-9a26-24cf" primary="false"/>
+        <categoryLink id="42bb-9e8c-21a4-1ecb" name="Psyker" hidden="false" targetId="8def-4493-1118-fa7e" primary="false"/>
+        <categoryLink id="13b9-879f-c86c-9e17" name="Infantry" hidden="false" targetId="30a3-f35e-ddbe-a643" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="bf44-0d0a-77ac-a925" name="Warlord" hidden="false" collective="false" import="true" targetId="8d5c-0b32-5381-a21a" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="c597-7c48-b1fd-f5da" value="75.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="dccc-d0e7-bb3c-ace1" name="The Blue Scribes" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4303-5251-d226-37b2" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="b2b2-a693-6b95-d641" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="10ef-4caf-cddf-79b5" name="Characters" hidden="false" targetId="3c37-5b80-ab5c-a36a" primary="false"/>
+        <categoryLink id="4819-e7bd-851d-ad85" name="Tzeentch" hidden="false" targetId="7048-5134-9a26-24cf" primary="false"/>
+        <categoryLink id="c9fe-48d5-9f36-27d6" name="Psyker" hidden="false" targetId="8def-4493-1118-fa7e" primary="false"/>
+        <categoryLink id="08eb-7417-8c46-e0ef" name="Mounted" hidden="false" targetId="5e5c-3659-85f3-a5ee" primary="false"/>
+        <categoryLink id="89ae-3615-7053-0053" name="Fly" hidden="false" targetId="3390-2efa-78a1-5e24" primary="false"/>
+        <categoryLink id="abc9-ea25-a0f5-21cd" name="New CategoryLink" hidden="false" targetId="ba7c-22cb-4f67-36f0" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="727b-a2dc-a140-941d" name="Warlord" hidden="false" collective="false" import="true" targetId="8d5c-0b32-5381-a21a" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="c597-7c48-b1fd-f5da" value="65.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1d2d-8c31-2917-de61" name="Fateskimmer" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4303-5251-d226-37b2" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="6ad2-3448-cf6e-f804" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="d455-d4d5-4c69-7ad3" name="Characters" hidden="false" targetId="3c37-5b80-ab5c-a36a" primary="false"/>
+        <categoryLink id="0e73-e137-15e2-44e6" name="Tzeentch" hidden="false" targetId="7048-5134-9a26-24cf" primary="false"/>
+        <categoryLink id="bcd2-63a2-7078-feaa" name="Psyker" hidden="false" targetId="8def-4493-1118-fa7e" primary="false"/>
+        <categoryLink id="0677-b845-4df7-531e" name="Mounted" hidden="false" targetId="5e5c-3659-85f3-a5ee" primary="false"/>
+        <categoryLink id="7aad-dc9f-2960-f270" name="Fly" hidden="false" targetId="3390-2efa-78a1-5e24" primary="false"/>
+        <categoryLink id="3e48-9117-199f-0eac" name="New CategoryLink" hidden="false" targetId="d07f-a7ee-68a2-f17c" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="1a2a-6907-825a-3614" name="Bodyguard" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1fab-64cb-3028-7732" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="1bf5-878e-7bd8-78af" name="Screamers" hidden="false" collective="false" import="true" targetId="3fa5-8c98-3554-2039" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="4e97-6628-c64f-eff7" name="Warlord" hidden="false" collective="false" import="true" targetId="8d5c-0b32-5381-a21a" type="selectionEntry"/>
+        <entryLink id="e02a-7382-bb74-92d8" name="Enhancements" hidden="false" collective="false" import="true" targetId="91a8-7602-4295-3187" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="c597-7c48-b1fd-f5da" value="105.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9198-660f-e647-cd72" name="Burning Chariot" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4303-5251-d226-37b2" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="82e5-114e-c865-eeac" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="7bcf-ca62-9007-dfc8" name="Tzeentch" hidden="false" targetId="7048-5134-9a26-24cf" primary="false"/>
+        <categoryLink id="3361-cdcb-f10f-e6e2" name="Mounted" hidden="false" targetId="5e5c-3659-85f3-a5ee" primary="false"/>
+        <categoryLink id="6ffc-0695-af8a-15e9" name="New CategoryLink" hidden="false" targetId="ba7c-22cb-4f67-36f0" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="c597-7c48-b1fd-f5da" value="135.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b326-d5f3-e4f4-6adf" name="Fluxmaster" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4303-5251-d226-37b2" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="343f-7cd8-869b-baee" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="2b62-96eb-b516-482a" name="Characters" hidden="false" targetId="3c37-5b80-ab5c-a36a" primary="false"/>
+        <categoryLink id="0b3c-8c12-d509-c1ba" name="Tzeentch" hidden="false" targetId="7048-5134-9a26-24cf" primary="false"/>
+        <categoryLink id="ff98-5799-6539-9e70" name="Psyker" hidden="false" targetId="8def-4493-1118-fa7e" primary="false"/>
+        <categoryLink id="654f-1efe-ce12-f3b7" name="Mounted" hidden="false" targetId="5e5c-3659-85f3-a5ee" primary="false"/>
+        <categoryLink id="5c63-0a7c-00e5-bee1" name="Fly" hidden="false" targetId="3390-2efa-78a1-5e24" primary="false"/>
+        <categoryLink id="a013-fa0c-d62e-097d" name="New CategoryLink" hidden="false" targetId="d07f-a7ee-68a2-f17c" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="7ef7-51f0-603c-1bac" name="Bodyguard" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d34e-2b14-c15d-2b2d" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="d65d-c065-a87a-5195" name="Blue Horrors" hidden="false" collective="false" import="true" targetId="991b-b6fd-c6ac-06c1" type="selectionEntry"/>
+            <entryLink id="47e5-b640-0389-0792" name="Pink Horrors" hidden="false" collective="false" import="true" targetId="ae39-f9ba-840b-4aed" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="457a-52b8-a5a5-ce28" name="Warlord" hidden="false" collective="false" import="true" targetId="8d5c-0b32-5381-a21a" type="selectionEntry"/>
+        <entryLink id="f098-b86a-6498-14fd" name="Enhancements" hidden="false" collective="false" import="true" targetId="91a8-7602-4295-3187" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="c597-7c48-b1fd-f5da" value="60.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="554d-fc8d-7fa5-3de3" name="Exalted Flamer" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4303-5251-d226-37b2" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7e95-7418-39cd-b205" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="6097-dd6d-3ac4-7967" name="Characters" hidden="false" targetId="3c37-5b80-ab5c-a36a" primary="false"/>
+        <categoryLink id="f6df-6057-40e2-1273" name="Tzeentch" hidden="false" targetId="7048-5134-9a26-24cf" primary="false"/>
+        <categoryLink id="77b3-19ff-f552-0917" name="Fly" hidden="false" targetId="3390-2efa-78a1-5e24" primary="false"/>
+        <categoryLink id="83d5-3719-ec8e-63ae" name="New CategoryLink" hidden="false" targetId="d07f-a7ee-68a2-f17c" primary="true"/>
+        <categoryLink id="d9ca-f558-fabb-b500" name="Infantry" hidden="false" targetId="30a3-f35e-ddbe-a643" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="aa6c-7f8a-fa1e-a7e3" name="Bodyguard" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ca85-9817-da11-2743" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="c402-b713-86eb-32b8" name="Flamers" hidden="false" collective="false" import="true" targetId="5926-7bb9-21d0-e2a8" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="c597-7c48-b1fd-f5da" value="70.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="cace-85f6-7661-06d3" name="Changecaster" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4303-5251-d226-37b2" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5d95-683e-e83c-c5ac" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="c6e2-3829-832b-befb" name="Characters" hidden="false" targetId="3c37-5b80-ab5c-a36a" primary="false"/>
+        <categoryLink id="ba74-79af-0438-6cd7" name="Tzeentch" hidden="false" targetId="7048-5134-9a26-24cf" primary="false"/>
+        <categoryLink id="dd1f-feec-af69-100f" name="Psyker" hidden="false" targetId="8def-4493-1118-fa7e" primary="false"/>
+        <categoryLink id="2a94-144e-d60a-e4fa" name="Fly" hidden="false" targetId="3390-2efa-78a1-5e24" primary="false"/>
+        <categoryLink id="f42f-5575-ef60-97d4" name="New CategoryLink" hidden="false" targetId="d07f-a7ee-68a2-f17c" primary="true"/>
+        <categoryLink id="313f-e5bb-54d8-25f3" name="Infantry" hidden="false" targetId="30a3-f35e-ddbe-a643" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="2097-238d-92ba-322c" name="Bodyguard" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b466-71d5-d204-affa" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="c2b4-7cae-e1dc-7aa6" name="Blue Horrors" hidden="false" collective="false" import="true" targetId="991b-b6fd-c6ac-06c1" type="selectionEntry"/>
+            <entryLink id="97f6-1592-af31-9aee" name="Pink Horrors" hidden="false" collective="false" import="true" targetId="ae39-f9ba-840b-4aed" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="e1bd-d2ab-0877-b71a" name="Warlord" hidden="false" collective="false" import="true" targetId="8d5c-0b32-5381-a21a" type="selectionEntry"/>
+        <entryLink id="1817-02ce-af3f-c427" name="Enhancements" hidden="false" collective="false" import="true" targetId="91a8-7602-4295-3187" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="c597-7c48-b1fd-f5da" value="65.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c7db-0339-1097-d3e8" name="Rotigus" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d3d0-8a71-3993-a2f2" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5afd-c845-0d65-e008" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="7cf4-27ac-d79c-1bd2" name="Characters" hidden="false" targetId="3c37-5b80-ab5c-a36a" primary="false"/>
+        <categoryLink id="9b65-2b1e-e929-723a" name="Epic Hero" hidden="false" targetId="9c2a-84c2-6034-db09" primary="false"/>
+        <categoryLink id="63fa-077c-634b-b789" name="Monster" hidden="false" targetId="cbb1-8b0e-dbfc-95d4" primary="false"/>
+        <categoryLink id="fa46-220e-483d-444f" name="New CategoryLink" hidden="false" targetId="ba7c-22cb-4f67-36f0" primary="true"/>
+        <categoryLink id="17cc-f1bd-48a7-eda9" name="Psyker" hidden="false" targetId="8def-4493-1118-fa7e" primary="false"/>
+        <categoryLink id="74f1-e3ca-f515-94c1" name="Nurgle" hidden="false" targetId="d088-3fe1-3372-8544" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="6b74-361c-30c4-a070" name="Warlord" hidden="false" collective="false" import="true" targetId="8d5c-0b32-5381-a21a" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="c597-7c48-b1fd-f5da" value="285.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="be0e-22a9-696c-122f" name="Great Unclean One" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d3d0-8a71-3993-a2f2" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="fe87-31c6-8681-4b0d" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="265d-de57-bc7c-67b7" name="Characters" hidden="false" targetId="3c37-5b80-ab5c-a36a" primary="false"/>
+        <categoryLink id="139c-ec8d-6f2f-0e24" name="Monster" hidden="false" targetId="cbb1-8b0e-dbfc-95d4" primary="false"/>
+        <categoryLink id="b95c-ab2a-3965-b386" name="New CategoryLink" hidden="false" targetId="ba7c-22cb-4f67-36f0" primary="true"/>
+        <categoryLink id="aa5c-7b7e-d441-db57" name="Nurgle" hidden="false" targetId="d088-3fe1-3372-8544" primary="false"/>
+        <categoryLink id="d261-a27d-9bd0-56bc" name="Psyker" hidden="false" targetId="8def-4493-1118-fa7e" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="02e9-2bef-52bb-959f" name="Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="6d19-e484-69ea-642e">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bc75-7e47-105f-4ca5" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4fe1-1972-72f4-51d8" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="3478-fbcb-736d-d55a" name="Bileblade" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="c597-7c48-b1fd-f5da" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="6d19-e484-69ea-642e" name="Plague Flail" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="c597-7c48-b1fd-f5da" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="ede5-6622-3411-8eef" name="Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="cad5-e49c-1358-872b">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bd3c-df4e-0fba-8103" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8722-f566-0274-601d" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="496e-7e4e-2e3b-61eb" name="Doomsday Bell" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="c597-7c48-b1fd-f5da" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="cad5-e49c-1358-872b" name="Bilesword" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="c597-7c48-b1fd-f5da" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="e364-eacc-2d9a-c62b" name="Warlord" hidden="false" collective="false" import="true" targetId="8d5c-0b32-5381-a21a" type="selectionEntry"/>
+        <entryLink id="9cf3-6927-aa6c-3db0" name="Enhancements" hidden="false" collective="false" import="true" targetId="91a8-7602-4295-3187" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="c597-7c48-b1fd-f5da" value="280.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="cb7e-41a1-cc94-df9e" name="Spoilpox Scrivener" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d3d0-8a71-3993-a2f2" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="d5d9-9bd8-191b-7bc5" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="96f1-d081-cee0-f2ab" name="Characters" hidden="false" targetId="3c37-5b80-ab5c-a36a" primary="false"/>
+        <categoryLink id="b9b1-ebcd-0fcb-dd2d" name="Nurgle" hidden="false" targetId="d088-3fe1-3372-8544" primary="false"/>
+        <categoryLink id="58a3-7475-0237-a073" name="Infantry" hidden="false" targetId="30a3-f35e-ddbe-a643" primary="false"/>
+        <categoryLink id="24c2-e54e-c77c-95c5" name="New CategoryLink" hidden="false" targetId="d07f-a7ee-68a2-f17c" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="c083-def5-7058-07d8" name="Bodyguard" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a10e-4941-ade0-f435" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="bbf8-323e-c847-f704" name="Plaguebearers" hidden="false" collective="false" import="true" targetId="a8a9-22ac-9e96-1164" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="4585-b1ba-f933-7540" name="Warlord" hidden="false" collective="false" import="true" targetId="8d5c-0b32-5381-a21a" type="selectionEntry"/>
+        <entryLink id="d4db-1977-5901-976b" name="Enhancements" hidden="false" collective="false" import="true" targetId="91a8-7602-4295-3187" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="c597-7c48-b1fd-f5da" value="65.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1c3d-35a0-b5bf-0c40" name="Poxbringer" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d3d0-8a71-3993-a2f2" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="b0b4-63fc-b47d-79f7" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="d9e2-f3aa-4bde-4397" name="Characters" hidden="false" targetId="3c37-5b80-ab5c-a36a" primary="false"/>
+        <categoryLink id="631f-9274-ae73-4fa1" name="Nurgle" hidden="false" targetId="d088-3fe1-3372-8544" primary="false"/>
+        <categoryLink id="d064-0240-d7c1-ee61" name="Psyker" hidden="false" targetId="8def-4493-1118-fa7e" primary="false"/>
+        <categoryLink id="9c58-97b4-700e-206b" name="Infantry" hidden="false" targetId="30a3-f35e-ddbe-a643" primary="false"/>
+        <categoryLink id="5f88-c542-db08-f74b" name="New CategoryLink" hidden="false" targetId="d07f-a7ee-68a2-f17c" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="f4ba-a76c-7715-ea0f" name="Bodyguard" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5f33-120f-0e09-cba5" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="5d0e-40b4-8b0d-32e7" name="Plaguebearers" hidden="false" collective="false" import="true" targetId="a8a9-22ac-9e96-1164" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="f47c-dfb5-ae30-0aac" name="Warlord" hidden="false" collective="false" import="true" targetId="8d5c-0b32-5381-a21a" type="selectionEntry"/>
+        <entryLink id="cc83-62e2-d887-74c2" name="Enhancements" hidden="false" collective="false" import="true" targetId="91a8-7602-4295-3187" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="c597-7c48-b1fd-f5da" value="75.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8792-d5a0-1b15-8224" name="Epidemius" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d3d0-8a71-3993-a2f2" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1314-e57a-e824-4d17" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="88e3-7b18-a175-f337" name="Characters" hidden="false" targetId="3c37-5b80-ab5c-a36a" primary="false"/>
+        <categoryLink id="ecbc-fc4b-b590-a24d" name="Nurgle" hidden="false" targetId="d088-3fe1-3372-8544" primary="false"/>
+        <categoryLink id="5205-953c-fdb4-879e" name="Infantry" hidden="false" targetId="30a3-f35e-ddbe-a643" primary="false"/>
+        <categoryLink id="0fa5-aae2-7911-c9f3" name="New CategoryLink" hidden="false" targetId="d07f-a7ee-68a2-f17c" primary="true"/>
+        <categoryLink id="68f9-55c0-7ba2-2b94" name="Epic Hero" hidden="false" targetId="9c2a-84c2-6034-db09" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="55a3-1ae8-07c6-ae9f" name="Bodyguard" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0a37-d5d1-8457-2972" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="8ccc-809f-2ad2-f5eb" name="Plaguebearers" hidden="false" collective="false" import="true" targetId="a8a9-22ac-9e96-1164" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="98f1-07a4-9df7-a814" name="Warlord" hidden="false" collective="false" import="true" targetId="8d5c-0b32-5381-a21a" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="c597-7c48-b1fd-f5da" value="85.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="21ce-5db4-b7d1-a241" name="Sloppity Bilepiper" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d3d0-8a71-3993-a2f2" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5888-547a-27f0-53c7" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="ea7c-13f8-0bb4-b0ee" name="Characters" hidden="false" targetId="3c37-5b80-ab5c-a36a" primary="false"/>
+        <categoryLink id="1b40-e266-ec71-4c4d" name="Infantry" hidden="false" targetId="30a3-f35e-ddbe-a643" primary="false"/>
+        <categoryLink id="7963-058f-643c-bfe0" name="New CategoryLink" hidden="false" targetId="d07f-a7ee-68a2-f17c" primary="true"/>
+        <categoryLink id="2a18-4d8e-ddbf-693d" name="Nurgle" hidden="false" targetId="d088-3fe1-3372-8544" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="157f-9382-8757-c8c9" name="Bodyguard" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="675f-c5f7-e074-3932" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="6168-eace-b985-2a2c" name="Plaguebearers" hidden="false" collective="false" import="true" targetId="a8a9-22ac-9e96-1164" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="4e68-8bf0-edfd-6771" name="Warlord" hidden="false" collective="false" import="true" targetId="8d5c-0b32-5381-a21a" type="selectionEntry"/>
+        <entryLink id="72e6-6da0-4a13-8ca3" name="Enhancements" hidden="false" collective="false" import="true" targetId="91a8-7602-4295-3187" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="c597-7c48-b1fd-f5da" value="55.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2405-8c3d-e431-a8d7" name="Horticulous Slimux" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d3d0-8a71-3993-a2f2" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="d5ac-5245-0393-e111" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="b4bd-0a6b-4a17-34d0" name="Characters" hidden="false" targetId="3c37-5b80-ab5c-a36a" primary="false"/>
+        <categoryLink id="b09a-88fe-d496-ba0a" name="Nurgle" hidden="false" targetId="d088-3fe1-3372-8544" primary="false"/>
+        <categoryLink id="233a-d8fb-79e4-3593" name="New CategoryLink" hidden="false" targetId="d07f-a7ee-68a2-f17c" primary="true"/>
+        <categoryLink id="9838-1efe-c82e-09b1" name="Epic Hero" hidden="false" targetId="9c2a-84c2-6034-db09" primary="false"/>
+        <categoryLink id="355b-d29a-9406-ba04" name="Mounted" hidden="false" targetId="5e5c-3659-85f3-a5ee" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="c7d6-401c-3371-8fec" name="Bodyguard" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5daf-d8c8-2548-8866" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="9766-1fea-11cc-9767" name="Beasts of Nurgle" hidden="false" collective="false" import="true" targetId="8a19-7274-c506-87ad" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="e308-b3f4-9847-8854" name="Warlord" hidden="false" collective="false" import="true" targetId="8d5c-0b32-5381-a21a" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="c597-7c48-b1fd-f5da" value="120.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8178-45f4-4518-85b0" name="Nurglings" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d3d0-8a71-3993-a2f2" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="6.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="b5ef-020e-270d-8cdc" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="c8db-304e-3e12-2b93" name="New CategoryLink" hidden="false" targetId="ba7c-22cb-4f67-36f0" primary="true"/>
+        <categoryLink id="171c-1b33-d346-2b8c" name="Battleline" hidden="false" targetId="1d18-1359-5a76-643d" primary="false"/>
+        <categoryLink id="39ca-0bb1-d563-c46f" name="Nurgle" hidden="false" targetId="d088-3fe1-3372-8544" primary="false"/>
+        <categoryLink id="9858-467d-621c-ed1d" name="Swarm" hidden="false" targetId="ae66-cbeb-4521-0238" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="95ee-74a4-11ce-7db6" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="4cbc-9469-8bec-c364">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8c7e-85b1-afbe-7863" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ea8b-7aaa-f14f-5945" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="4cbc-9469-8bec-c364" name="Unit Size 3" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="c597-7c48-b1fd-f5da" value="40.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="0873-5562-8519-b59b" name="Unit Size 6" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="c597-7c48-b1fd-f5da" value="80.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="fa0b-475e-efc5-803d" name="Unit Size 9" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="c597-7c48-b1fd-f5da" value="120.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="c597-7c48-b1fd-f5da" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8a28-0176-9706-7917" name="Plague Drones" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d3d0-8a71-3993-a2f2" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="58d7-5e7d-7411-f6d4" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="58e4-15f6-1207-938b" name="New CategoryLink" hidden="false" targetId="ba7c-22cb-4f67-36f0" primary="true"/>
+        <categoryLink id="0cff-772f-d011-380e" name="Nurgle" hidden="false" targetId="d088-3fe1-3372-8544" primary="false"/>
+        <categoryLink id="8ba8-f6d4-3ac3-7558" name="Mounted" hidden="false" targetId="5e5c-3659-85f3-a5ee" primary="false"/>
+        <categoryLink id="ff47-5916-2bbf-f8dc" name="Fly" hidden="false" targetId="3390-2efa-78a1-5e24" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="c0a5-9fc7-8cdb-267f" name="Daemonic Icon" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9c0f-05f5-c8ed-e803" type="max"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry id="980e-0cdb-c3b0-79eb" name="Instrument of Chaos" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="68da-0eae-a777-3605" type="max"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="4d33-0ec2-cf18-258c" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="b768-e540-9e21-662b">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0673-3b30-d7ef-3731" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d79f-e01c-0339-d336" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="b768-e540-9e21-662b" name="Unit Size 3" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="c597-7c48-b1fd-f5da" value="120.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="ffac-5180-0d66-aa7b" name="Unit Size 6" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="c597-7c48-b1fd-f5da" value="240.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="c597-7c48-b1fd-f5da" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="cd74-8a3e-8e20-9dc9" name="Feculent Gnarlmaw" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d3d0-8a71-3993-a2f2" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="e798-2649-b5da-b519" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="3207-51f2-2c11-e822" name="Nurgle" hidden="false" targetId="d088-3fe1-3372-8544" primary="false"/>
+        <categoryLink id="8973-6a68-9bae-2a6d" name="Fortification" hidden="false" targetId="cb18-d4f2-b6ee-3e79" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="c597-7c48-b1fd-f5da" value="100.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8c82-2b65-e2aa-f4de" name="Keeper of Secrets" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5333-eb0f-b615-0a89" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="cefb-52da-2664-c217" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="691e-a797-9127-afa9" name="Characters" hidden="false" targetId="3c37-5b80-ab5c-a36a" primary="false"/>
+        <categoryLink id="c542-a8ba-b880-6b2c" name="Monster" hidden="false" targetId="cbb1-8b0e-dbfc-95d4" primary="false"/>
+        <categoryLink id="5eb5-3c17-2549-5467" name="New CategoryLink" hidden="false" targetId="ba7c-22cb-4f67-36f0" primary="true"/>
+        <categoryLink id="2c7d-2932-f649-0a4c" name="Psyker" hidden="false" targetId="8def-4493-1118-fa7e" primary="false"/>
+        <categoryLink id="6eb2-710e-60c2-344c" name="Slaanesh" hidden="false" targetId="6028-8efc-f7e7-237d" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="c1f6-338c-6f72-3a76" name="Equipment" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4b97-4d7b-7885-4f69" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="6aa0-ba84-39f9-cd12" name="Ritual Knife" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="c597-7c48-b1fd-f5da" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="a4ea-6811-edc7-62bf" name="Living Whip" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="c597-7c48-b1fd-f5da" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="a191-2a65-4646-46e7" name="Shining Aegis" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="c597-7c48-b1fd-f5da" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="3e19-de22-0970-0789" name="Warlord" hidden="false" collective="false" import="true" targetId="8d5c-0b32-5381-a21a" type="selectionEntry"/>
+        <entryLink id="012d-249a-42fd-08e2" name="Enhancements" hidden="false" collective="false" import="true" targetId="91a8-7602-4295-3187" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="c597-7c48-b1fd-f5da" value="330.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1466-ce8c-8af1-c73e" name="Shalaxi Helbane" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5333-eb0f-b615-0a89" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ecb9-1420-b35b-440e" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="f473-21e4-f3cc-1709" name="Characters" hidden="false" targetId="3c37-5b80-ab5c-a36a" primary="false"/>
+        <categoryLink id="3d71-a313-a5e7-45f0" name="Epic Hero" hidden="false" targetId="9c2a-84c2-6034-db09" primary="false"/>
+        <categoryLink id="ae67-377f-ef66-3774" name="Monster" hidden="false" targetId="cbb1-8b0e-dbfc-95d4" primary="false"/>
+        <categoryLink id="3b32-ef10-5847-e82a" name="New CategoryLink" hidden="false" targetId="ba7c-22cb-4f67-36f0" primary="true"/>
+        <categoryLink id="b5df-d59f-02b3-d622" name="Psyker" hidden="false" targetId="8def-4493-1118-fa7e" primary="false"/>
+        <categoryLink id="6fdd-e1ef-cfbf-189c" name="Slaanesh" hidden="false" targetId="6028-8efc-f7e7-237d" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="8db7-fce7-cef3-957e" name="Warlord" hidden="false" collective="false" import="true" targetId="8d5c-0b32-5381-a21a" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="c597-7c48-b1fd-f5da" value="400.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9f63-dcdf-7a79-9729" name="Contorted Epitome" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5333-eb0f-b615-0a89" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="832b-ac6c-70b8-28d6" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="5fcb-b47f-5b5b-fad9" name="Characters" hidden="false" targetId="3c37-5b80-ab5c-a36a" primary="false"/>
+        <categoryLink id="69f5-c30c-c187-8045" name="Slaanesh" hidden="false" targetId="6028-8efc-f7e7-237d" primary="false"/>
+        <categoryLink id="26e2-74cd-0087-085c" name="Infantry" hidden="false" targetId="30a3-f35e-ddbe-a643" primary="false"/>
+        <categoryLink id="bf73-60e2-faa1-93bc" name="New CategoryLink" hidden="false" targetId="d07f-a7ee-68a2-f17c" primary="true"/>
+        <categoryLink id="998e-a64e-c777-fa1d" name="Psyker" hidden="false" targetId="8def-4493-1118-fa7e" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="51e9-3cf8-d539-0b25" name="Bodyguard" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b870-c79a-d8e7-bf63" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="3ac9-ee30-4861-a329" name="Daemonettes" hidden="false" collective="false" import="true" targetId="afd4-eda3-0ae1-65e2" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="5129-e080-352e-c62f" name="Warlord" hidden="false" collective="false" import="true" targetId="8d5c-0b32-5381-a21a" type="selectionEntry"/>
+        <entryLink id="0b63-d24c-eb0b-c99e" name="Enhancements" hidden="false" collective="false" import="true" targetId="91a8-7602-4295-3187" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="c597-7c48-b1fd-f5da" value="85.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7ab1-1f9e-6563-464a" name="The Masque of Slaanesh" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5333-eb0f-b615-0a89" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="6bef-2a58-cf64-ce46" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="c2ff-8651-c901-5db2" name="Characters" hidden="false" targetId="3c37-5b80-ab5c-a36a" primary="false"/>
+        <categoryLink id="20c9-8847-ba12-2915" name="Slaanesh" hidden="false" targetId="6028-8efc-f7e7-237d" primary="false"/>
+        <categoryLink id="c569-18a9-5818-fedc" name="Infantry" hidden="false" targetId="30a3-f35e-ddbe-a643" primary="false"/>
+        <categoryLink id="dfd2-c2fe-92dc-9c4d" name="New CategoryLink" hidden="false" targetId="ba7c-22cb-4f67-36f0" primary="true"/>
+        <categoryLink id="151e-9155-0734-a9e9" name="Epic Hero" hidden="false" targetId="9c2a-84c2-6034-db09" primary="false"/>
+        <categoryLink id="33f3-a224-972d-70a5" name="Fly" hidden="false" targetId="3390-2efa-78a1-5e24" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="f1d1-750f-ae36-717f" name="Warlord" hidden="false" collective="false" import="true" targetId="8d5c-0b32-5381-a21a" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="c597-7c48-b1fd-f5da" value="105.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0851-a3fb-5c19-d96b" name="Syll&apos;esske" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5333-eb0f-b615-0a89" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="949c-3291-696b-236f" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="7195-703f-d20b-0c73" name="Characters" hidden="false" targetId="3c37-5b80-ab5c-a36a" primary="false"/>
+        <categoryLink id="5785-47a6-dcee-2933" name="Slaanesh" hidden="false" targetId="6028-8efc-f7e7-237d" primary="false"/>
+        <categoryLink id="5017-0e91-031f-67d6" name="New CategoryLink" hidden="false" targetId="d07f-a7ee-68a2-f17c" primary="true"/>
+        <categoryLink id="b4ea-5302-fbd5-d200" name="Epic Hero" hidden="false" targetId="9c2a-84c2-6034-db09" primary="false"/>
+        <categoryLink id="d315-d51a-94f6-a0b9" name="Monster" hidden="false" targetId="cbb1-8b0e-dbfc-95d4" primary="false"/>
+        <categoryLink id="aab0-6fa3-ae0c-4147" name="Psyker" hidden="false" targetId="8def-4493-1118-fa7e" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="277d-c131-fd02-b975" name="Bodyguard" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0d6c-9f82-2cb5-5348" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="14b4-ae51-ce48-9fbf" name="Daemonettes" hidden="false" collective="false" import="true" targetId="afd4-eda3-0ae1-65e2" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="f8fb-2934-3bd3-9b71" name="Warlord" hidden="false" collective="false" import="true" targetId="8d5c-0b32-5381-a21a" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="c597-7c48-b1fd-f5da" value="140.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2361-445b-dff0-6f4a" name="Infernal Enrapturess" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5333-eb0f-b615-0a89" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1374-0339-0e1e-3850" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="dd9f-d557-61f3-a551" name="Characters" hidden="false" targetId="3c37-5b80-ab5c-a36a" primary="false"/>
+        <categoryLink id="6d6b-dace-3d1c-7f39" name="Slaanesh" hidden="false" targetId="6028-8efc-f7e7-237d" primary="false"/>
+        <categoryLink id="6b93-640e-b45d-7084" name="Infantry" hidden="false" targetId="30a3-f35e-ddbe-a643" primary="false"/>
+        <categoryLink id="00bf-806b-faf5-bddc" name="New CategoryLink" hidden="false" targetId="d07f-a7ee-68a2-f17c" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="6969-477b-25ab-4daa" name="Bodyguard" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="bcfb-8550-8850-6ed5" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="6a5d-dac8-a0fb-7803" name="Daemonettes" hidden="false" collective="false" import="true" targetId="afd4-eda3-0ae1-65e2" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="7ce5-bdcf-5bf2-ef6a" name="Warlord" hidden="false" collective="false" import="true" targetId="8d5c-0b32-5381-a21a" type="selectionEntry"/>
+        <entryLink id="b0d0-d3ce-196c-0cd6" name="Enhancements" hidden="false" collective="false" import="true" targetId="91a8-7602-4295-3187" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="c597-7c48-b1fd-f5da" value="65.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="580a-8523-9b72-50d5" name="Tormentbringer on Exalted Seeker Chariot" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5333-eb0f-b615-0a89" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="342e-1928-9203-7265" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="0376-ec7f-ec51-975a" name="Characters" hidden="false" targetId="3c37-5b80-ab5c-a36a" primary="false"/>
+        <categoryLink id="7ec9-d309-a0dd-0b14" name="Slaanesh" hidden="false" targetId="6028-8efc-f7e7-237d" primary="false"/>
+        <categoryLink id="4617-2577-2669-f5d7" name="Psyker" hidden="false" targetId="8def-4493-1118-fa7e" primary="false"/>
+        <categoryLink id="b924-33b9-f2fc-8eec" name="Mounted" hidden="false" targetId="5e5c-3659-85f3-a5ee" primary="false"/>
+        <categoryLink id="5402-2134-18ea-e548" name="New CategoryLink" hidden="false" targetId="ba7c-22cb-4f67-36f0" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="b47c-d643-b7e0-7245" name="Warlord" hidden="false" collective="false" import="true" targetId="8d5c-0b32-5381-a21a" type="selectionEntry"/>
+        <entryLink id="4206-d8da-991f-36d9" name="Enhancements" hidden="false" collective="false" import="true" targetId="91a8-7602-4295-3187" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="c597-7c48-b1fd-f5da" value="160.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c0fa-7697-c879-ea46" name="Tranceweaver" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5333-eb0f-b615-0a89" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="c2c2-0e7c-f1d5-77e0" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="5b56-1934-6010-6c40" name="Characters" hidden="false" targetId="3c37-5b80-ab5c-a36a" primary="false"/>
+        <categoryLink id="04e8-c121-abe8-1748" name="Slaanesh" hidden="false" targetId="6028-8efc-f7e7-237d" primary="false"/>
+        <categoryLink id="e082-419f-2834-f794" name="Infantry" hidden="false" targetId="30a3-f35e-ddbe-a643" primary="false"/>
+        <categoryLink id="3905-74a3-8950-7f87" name="New CategoryLink" hidden="false" targetId="d07f-a7ee-68a2-f17c" primary="true"/>
+        <categoryLink id="7831-9b69-b590-7cc9" name="Psyker" hidden="false" targetId="8def-4493-1118-fa7e" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="ba2b-f4af-e445-d420" name="Bodyguard" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8dfb-31cf-9b87-2541" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="9475-4c31-c813-f6b8" name="Daemonettes" hidden="false" collective="false" import="true" targetId="afd4-eda3-0ae1-65e2" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="6e4b-71f7-5fcc-d204" name="Warlord" hidden="false" collective="false" import="true" targetId="8d5c-0b32-5381-a21a" type="selectionEntry"/>
+        <entryLink id="f353-8dcf-4eb2-e211" name="Enhancements" hidden="false" collective="false" import="true" targetId="91a8-7602-4295-3187" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="c597-7c48-b1fd-f5da" value="60.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="28d8-de44-d5c2-27e6" name="Fiends" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5333-eb0f-b615-0a89" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4da0-41f2-224c-b1f0" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="3cdb-14d5-5313-eb84" name="New CategoryLink" hidden="false" targetId="ba7c-22cb-4f67-36f0" primary="true"/>
+        <categoryLink id="ccb7-66ce-c5bd-33b7" name="Slaanesh" hidden="false" targetId="6028-8efc-f7e7-237d" primary="false"/>
+        <categoryLink id="affb-fe7e-ce2f-6908" name="Beasts" hidden="false" targetId="3ffb-b12f-27e4-9471" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="68a5-01af-112b-9449" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="ec51-4429-3d8c-97d6">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="512a-0ea1-f9ec-09a6" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d8c-194d-6ae7-3feb" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="ec51-4429-3d8c-97d6" name="Unit Size 3" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="c597-7c48-b1fd-f5da" value="150.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="d4bf-ffea-f181-fa7e" name="Unit Size 6" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="c597-7c48-b1fd-f5da" value="300.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="c597-7c48-b1fd-f5da" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2afb-1e27-6f15-cd91" name="Seekers" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5333-eb0f-b615-0a89" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="dcda-9122-9072-0aa0" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="6940-6fcd-50ef-2823" name="New CategoryLink" hidden="false" targetId="ba7c-22cb-4f67-36f0" primary="true"/>
+        <categoryLink id="e47f-0332-32d1-bc0e" name="Slaanesh" hidden="false" targetId="6028-8efc-f7e7-237d" primary="false"/>
+        <categoryLink id="56c7-93d0-3ec8-fd7c" name="Mounted" hidden="false" targetId="5e5c-3659-85f3-a5ee" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="ebc3-62cb-ee1d-16f5" name="Daemonic Icon" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f99f-e67e-c84a-4618" type="max"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry id="1738-d56a-bebf-9dd4" name="Instrument of Chaos" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3470-e7d6-c5c7-67a3" type="max"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="2c3c-0f52-5460-741c" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="97d4-1616-f148-dc0c">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eeec-59f7-617a-c5da" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e9a6-46f8-2406-df1c" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="97d4-1616-f148-dc0c" name="Unit Size 5" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="c597-7c48-b1fd-f5da" value="95.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="6134-ab1b-f795-47b2" name="Unit Size 10" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="c597-7c48-b1fd-f5da" value="190.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="c597-7c48-b1fd-f5da" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="01ba-6809-9355-5c5e" name="Hellflayer" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5333-eb0f-b615-0a89" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="418d-bdeb-a1ac-df89" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="fe63-9bd8-e55f-bf17" name="New CategoryLink" hidden="false" targetId="ba7c-22cb-4f67-36f0" primary="true"/>
+        <categoryLink id="7a1d-5c9f-387c-1888" name="Slaanesh" hidden="false" targetId="6028-8efc-f7e7-237d" primary="false"/>
+        <categoryLink id="7590-eb48-eea3-8f0c" name="Mounted" hidden="false" targetId="5e5c-3659-85f3-a5ee" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="9617-4442-5e90-2474" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="6e1c-3775-9658-8036">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9c3d-c235-2bcc-a329" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9bc1-a584-1a68-86a8" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="6e1c-3775-9658-8036" name="Unit Size 1" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="c597-7c48-b1fd-f5da" value="110.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="bba2-9c20-da28-069f" name="Unit Size 2" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="c597-7c48-b1fd-f5da" value="220.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="c597-7c48-b1fd-f5da" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f1ae-1a7f-4689-22e8" name="Seeker Chariot" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5333-eb0f-b615-0a89" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="eec7-8125-1c84-b833" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="aa73-a1f4-ea06-cc1f" name="New CategoryLink" hidden="false" targetId="ba7c-22cb-4f67-36f0" primary="true"/>
+        <categoryLink id="53dd-f7a8-e7dc-97a1" name="Slaanesh" hidden="false" targetId="6028-8efc-f7e7-237d" primary="false"/>
+        <categoryLink id="2a5f-c0bc-2bec-a685" name="Mounted" hidden="false" targetId="5e5c-3659-85f3-a5ee" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="becb-aa5c-6675-3c70" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="a1fa-28de-cd72-4c5a">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="40e2-9d20-6f66-f573" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a7ca-daa7-598b-bfff" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="a1fa-28de-cd72-4c5a" name="Unit Size 1" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="c597-7c48-b1fd-f5da" value="75.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="8cdb-5c14-1c19-af38" name="Unit Size 2" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="c597-7c48-b1fd-f5da" value="150.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="c597-7c48-b1fd-f5da" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="056d-a19d-92fc-240c" name="Exalted Seeker Chariot" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5333-eb0f-b615-0a89" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9487-95c7-f1f8-e250" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="0cd0-aba3-8497-d0a4" name="New CategoryLink" hidden="false" targetId="ba7c-22cb-4f67-36f0" primary="true"/>
+        <categoryLink id="cbd9-7786-30dc-f8f0" name="Slaanesh" hidden="false" targetId="6028-8efc-f7e7-237d" primary="false"/>
+        <categoryLink id="f5f9-a747-c282-88d8" name="Mounted" hidden="false" targetId="5e5c-3659-85f3-a5ee" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="c597-7c48-b1fd-f5da" value="115.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3ea6-4a3f-9b96-4ba4" name="Be&apos;lakor" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="bb7d-4f31-9472-0775" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="f8b3-49c0-afd5-4112" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="256b-a101-29ff-110d" name="Characters" hidden="false" targetId="3c37-5b80-ab5c-a36a" primary="false"/>
+        <categoryLink id="5496-3327-ad08-bb81" name="Monster" hidden="false" targetId="cbb1-8b0e-dbfc-95d4" primary="false"/>
+        <categoryLink id="eebb-2a9f-8c8c-254e" name="New CategoryLink" hidden="false" targetId="ba7c-22cb-4f67-36f0" primary="true"/>
+        <categoryLink id="0346-0fe4-3f5e-b5c0" name="Fly" hidden="false" targetId="3390-2efa-78a1-5e24" primary="false"/>
+        <categoryLink id="1cea-db82-8f71-da99" name="Epic Hero" hidden="false" targetId="9c2a-84c2-6034-db09" primary="false"/>
+        <categoryLink id="5557-446c-5150-2976" name="Psyker" hidden="false" targetId="8def-4493-1118-fa7e" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="8643-0c50-e3ab-c3b1" name="Warlord" hidden="false" collective="false" import="true" targetId="8d5c-0b32-5381-a21a" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3a8b-9e0a-46c6-2e4f" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="c597-7c48-b1fd-f5da" value="325.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e502-68a6-c7ab-2409" name="Soul Grinder" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="add" field="category" value="7048-5134-9a26-24cf">
+          <conditions>
+            <condition field="selections" scope="self" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7048-5134-9a26-24cf" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="add" field="category" value="d088-3fe1-3372-8544">
+          <conditions>
+            <condition field="selections" scope="self" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d088-3fe1-3372-8544" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="add" field="category" value="6028-8efc-f7e7-237d">
+          <conditions>
+            <condition field="selections" scope="self" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6028-8efc-f7e7-237d" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="add" field="category" value="5d86-ceb8-2c7e-23da">
+          <conditions>
+            <condition field="selections" scope="self" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5d86-ceb8-2c7e-23da" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="e0fe-8a83-48e2-bf4c" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="6df7-af5a-02c3-eb05" name="New CategoryLink" hidden="false" targetId="ba7c-22cb-4f67-36f0" primary="true"/>
+        <categoryLink id="4827-0011-be33-0b73" name="Vehicle" hidden="false" targetId="54ca-d67c-189f-0d7b" primary="false"/>
+        <categoryLink id="3467-00e0-b076-dffa" name="Walker" hidden="false" targetId="34a7-f05d-b5d6-0006" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="82e7-847f-d032-9212" name="Daemonic Allegiance" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0741-1cf6-c1ff-cae7" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f706-6660-8cac-0ee0" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="8c15-2e0b-81ff-016d" name="Khorne" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="64c8-99cc-b517-c173" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <categoryLinks>
+                <categoryLink id="d817-1f55-86c6-5830" name="Khorne" hidden="false" targetId="5d86-ceb8-2c7e-23da" primary="false"/>
+              </categoryLinks>
+            </selectionEntry>
+            <selectionEntry id="a0a2-35db-76b3-a64a" name="Slaanesh" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5333-eb0f-b615-0a89" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <categoryLinks>
+                <categoryLink id="2ebe-497a-73aa-dfc4" name="Slaanesh" hidden="false" targetId="6028-8efc-f7e7-237d" primary="false"/>
+              </categoryLinks>
+            </selectionEntry>
+            <selectionEntry id="63f9-a019-fc1c-357e" name="Nurgle" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d3d0-8a71-3993-a2f2" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <categoryLinks>
+                <categoryLink id="1a18-4660-a74d-9eef" name="Nurgle" hidden="false" targetId="d088-3fe1-3372-8544" primary="false"/>
+              </categoryLinks>
+            </selectionEntry>
+            <selectionEntry id="9b66-f339-cd86-16fd" name="Tzeentch" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4303-5251-d226-37b2" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <categoryLinks>
+                <categoryLink id="45ca-9ab4-cbfd-1e01" name="Tzeentch" hidden="false" targetId="7048-5134-9a26-24cf" primary="false"/>
+              </categoryLinks>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="c597-7c48-b1fd-f5da" value="215.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="94e2-fce3-bf5c-8e05" name="Daemon Prince of Chaos" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="add" field="category" value="5d86-ceb8-2c7e-23da">
+          <conditions>
+            <condition field="selections" scope="self" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5d86-ceb8-2c7e-23da" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="add" field="category" value="6028-8efc-f7e7-237d">
+          <conditions>
+            <condition field="selections" scope="self" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6028-8efc-f7e7-237d" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="add" field="category" value="d088-3fe1-3372-8544">
+          <conditions>
+            <condition field="selections" scope="self" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d088-3fe1-3372-8544" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="add" field="category" value="7048-5134-9a26-24cf">
+          <conditions>
+            <condition field="selections" scope="self" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7048-5134-9a26-24cf" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1317-b07b-de59-c91d" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="db11-8c25-7133-b1b2" name="New CategoryLink" hidden="false" targetId="ba7c-22cb-4f67-36f0" primary="true"/>
+        <categoryLink id="f170-798e-3f65-60f1" name="Monster" hidden="false" targetId="cbb1-8b0e-dbfc-95d4" primary="false"/>
+        <categoryLink id="5213-1542-b9d2-462f" name="Characters" hidden="false" targetId="3c37-5b80-ab5c-a36a" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="f628-7998-f4a9-cb59" name="Daemonic Allegiance" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9ec3-e25f-1cbc-22b5" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="64a9-a8f9-f259-5e0a" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="87d5-ef4c-8337-3a5d" name="Khorne" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="64c8-99cc-b517-c173" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <categoryLinks>
+                <categoryLink id="97df-0f26-f6bf-f0e8" name="Khorne" hidden="false" targetId="5d86-ceb8-2c7e-23da" primary="false"/>
+              </categoryLinks>
+            </selectionEntry>
+            <selectionEntry id="a376-0ecb-47d1-8f74" name="Slaanesh" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5333-eb0f-b615-0a89" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <categoryLinks>
+                <categoryLink id="cd9a-9085-65d1-df3a" name="Slaanesh" hidden="false" targetId="6028-8efc-f7e7-237d" primary="false"/>
+              </categoryLinks>
+            </selectionEntry>
+            <selectionEntry id="9fc9-37fb-ffbf-1035" name="Nurgle" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d3d0-8a71-3993-a2f2" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <categoryLinks>
+                <categoryLink id="cc36-af2b-c635-c190" name="Nurgle" hidden="false" targetId="d088-3fe1-3372-8544" primary="false"/>
+              </categoryLinks>
+            </selectionEntry>
+            <selectionEntry id="be0b-b28d-dab3-d805" name="Tzeentch" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4303-5251-d226-37b2" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <categoryLinks>
+                <categoryLink id="093d-caff-7db7-2637" name="Tzeentch" hidden="false" targetId="7048-5134-9a26-24cf" primary="false"/>
+              </categoryLinks>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="ff42-05e5-feb1-0a72" name="Warlord" hidden="false" collective="false" import="true" targetId="8d5c-0b32-5381-a21a" type="selectionEntry"/>
+        <entryLink id="a09d-bd8a-db40-8168" name="Enhancements" hidden="false" collective="false" import="true" targetId="91a8-7602-4295-3187" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="c597-7c48-b1fd-f5da" value="215.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2351-d75a-be36-99f3" name="Daemon Prince of Chaos with Wings" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="add" field="category" value="7048-5134-9a26-24cf">
+          <conditions>
+            <condition field="selections" scope="self" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7048-5134-9a26-24cf" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="add" field="category" value="6028-8efc-f7e7-237d">
+          <conditions>
+            <condition field="selections" scope="self" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6028-8efc-f7e7-237d" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="add" field="category" value="5d86-ceb8-2c7e-23da">
+          <conditions>
+            <condition field="selections" scope="self" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5d86-ceb8-2c7e-23da" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="add" field="category" value="d088-3fe1-3372-8544">
+          <conditions>
+            <condition field="selections" scope="self" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d088-3fe1-3372-8544" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7b99-b4da-195c-7de3" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="d810-eb49-057b-c5c7" name="New CategoryLink" hidden="false" targetId="ba7c-22cb-4f67-36f0" primary="true"/>
+        <categoryLink id="75e7-6763-c64f-d221" name="Monster" hidden="false" targetId="cbb1-8b0e-dbfc-95d4" primary="false"/>
+        <categoryLink id="de9a-e335-7854-4992" name="Characters" hidden="false" targetId="3c37-5b80-ab5c-a36a" primary="false"/>
+        <categoryLink id="c4d8-a990-ed95-f731" name="Fly" hidden="false" targetId="3390-2efa-78a1-5e24" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="f6e6-0af3-bdad-4d7f" name="Daemonic Allegiance" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="87c0-b5ee-2c73-aca3" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7b0f-97a9-57f5-261e" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="0fb8-13d6-a735-52d7" name="Khorne" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="64c8-99cc-b517-c173" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <categoryLinks>
+                <categoryLink id="af86-4ea3-7806-eb85" name="Khorne" hidden="false" targetId="5d86-ceb8-2c7e-23da" primary="false"/>
+              </categoryLinks>
+            </selectionEntry>
+            <selectionEntry id="c9a5-a1b9-b0ba-de50" name="Slaanesh" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5333-eb0f-b615-0a89" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <categoryLinks>
+                <categoryLink id="8eea-77d0-d235-8f35" name="Slaanesh" hidden="false" targetId="6028-8efc-f7e7-237d" primary="false"/>
+              </categoryLinks>
+            </selectionEntry>
+            <selectionEntry id="4fa4-67d9-b516-8d24" name="Nurgle" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d3d0-8a71-3993-a2f2" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <categoryLinks>
+                <categoryLink id="3fd7-508e-f3b6-5a1b" name="Nurgle" hidden="false" targetId="d088-3fe1-3372-8544" primary="false"/>
+              </categoryLinks>
+            </selectionEntry>
+            <selectionEntry id="39d5-22e3-e05d-2b29" name="Tzeentch" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4303-5251-d226-37b2" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <categoryLinks>
+                <categoryLink id="1935-f02d-89bb-75ab" name="Tzeentch" hidden="false" targetId="7048-5134-9a26-24cf" primary="false"/>
+              </categoryLinks>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="44d5-d795-d8fa-a3f1" name="Warlord" hidden="false" collective="false" import="true" targetId="8d5c-0b32-5381-a21a" type="selectionEntry"/>
+        <entryLink id="0b4f-67ac-60a2-579d" name="Enhancements" hidden="false" collective="false" import="true" targetId="91a8-7602-4295-3187" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="c597-7c48-b1fd-f5da" value="195.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <entryLinks>
+    <entryLink id="dd92-775a-37a9-30d1" name="Beasts of Nurgle" hidden="false" collective="false" import="true" targetId="8a19-7274-c506-87ad" type="selectionEntry"/>
+    <entryLink id="15b1-eff6-5946-c1c3" name="Bloodcrushers" hidden="false" collective="false" import="true" targetId="2ffa-b1a2-cd89-584b" type="selectionEntry"/>
+    <entryLink id="33e9-4764-d36a-1758" name="Bloodletters" hidden="false" collective="false" import="true" targetId="2406-80e6-1e43-a53b" type="selectionEntry"/>
+    <entryLink id="7cb5-1099-1f53-2c8f" name="Blue Horrors" hidden="false" collective="false" import="true" targetId="991b-b6fd-c6ac-06c1" type="selectionEntry"/>
+    <entryLink id="c0f1-a49f-5bf3-4c36" name="Daemonettes" hidden="false" collective="false" import="true" targetId="afd4-eda3-0ae1-65e2" type="selectionEntry"/>
+    <entryLink id="ffdb-4db4-53e8-5118" name="Flamers" hidden="false" collective="false" import="true" targetId="5926-7bb9-21d0-e2a8" type="selectionEntry"/>
+    <entryLink id="237e-6fa9-6284-aac4" name="Flesh Hounds" hidden="false" collective="false" import="true" targetId="9d32-28ba-60c6-6911" type="selectionEntry"/>
+    <entryLink id="f4e2-4eae-b7d0-1696" name="Pink Horrors" hidden="false" collective="false" import="true" targetId="ae39-f9ba-840b-4aed" type="selectionEntry"/>
+    <entryLink id="1e0a-e0d2-0bc0-5535" name="Plaguebearers" hidden="false" collective="false" import="true" targetId="a8a9-22ac-9e96-1164" type="selectionEntry"/>
+    <entryLink id="7844-99c8-ec04-7849" name="Screamers" hidden="false" collective="false" import="true" targetId="3fa5-8c98-3554-2039" type="selectionEntry"/>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="2ffa-b1a2-cd89-584b" name="Bloodcrushers" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="64c8-99cc-b517-c173" type="atLeast"/>
+          </conditions>
+        </modifier>
+        <modifier type="add" field="category" value="3b0e-83ed-ed79-10e3">
+          <conditions>
+            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d07f-a7ee-68a2-f17c" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="b8ab-2b70-f254-fbdd" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="6f5d-b4a0-6d4d-8d5b" name="Khorne" hidden="false" targetId="5d86-ceb8-2c7e-23da" primary="false"/>
+        <categoryLink id="a3d9-5cc9-3c59-8756" name="New CategoryLink" hidden="false" targetId="ba7c-22cb-4f67-36f0" primary="true"/>
+        <categoryLink id="b636-6f3c-7d7a-c629" name="Mounted" hidden="false" targetId="5e5c-3659-85f3-a5ee" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="263e-6983-bdbd-1b25" name="Daemonic Icon" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5f9e-862a-3e08-e6e1" type="max"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry id="8682-1706-3392-da60" name="Instrument of Chaos" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8b81-6266-21f2-00e7" type="max"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="eb74-e2a7-2407-15b3" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="42b2-e48a-f9f7-4c37">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d735-4bbe-6401-ff8c" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8ce6-37ba-ed6c-4654" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="42b2-e48a-f9f7-4c37" name="Unit Size 3" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="c597-7c48-b1fd-f5da" value="120.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="865f-e269-e7da-4842" name="Unit Size 6" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="c597-7c48-b1fd-f5da" value="240.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="c597-7c48-b1fd-f5da" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2406-80e6-1e43-a53b" name="Bloodletters" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="64c8-99cc-b517-c173" type="atLeast"/>
+          </conditions>
+        </modifier>
+        <modifier type="add" field="category" value="3b0e-83ed-ed79-10e3">
+          <conditions>
+            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d07f-a7ee-68a2-f17c" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="6.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="81e6-10f6-3347-a562" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="d44e-8a45-443d-7e61" name="Khorne" hidden="false" targetId="5d86-ceb8-2c7e-23da" primary="false"/>
+        <categoryLink id="7dc9-037d-2a1c-5e39" name="Infantry" hidden="false" targetId="30a3-f35e-ddbe-a643" primary="false"/>
+        <categoryLink id="ae61-80d9-fc29-b665" name="New CategoryLink" hidden="false" targetId="ba7c-22cb-4f67-36f0" primary="true"/>
+        <categoryLink id="40ed-ae43-6f39-0ffe" name="Battleline" hidden="false" targetId="1d18-1359-5a76-643d" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="035c-7a31-8f6a-facf" name="Daemonic Icon" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fd4e-5413-f3f3-ebde" type="max"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry id="2b07-c77d-171d-ceec" name="Instrument of Chaos" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9053-6c61-fac2-4924" type="max"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="c597-7c48-b1fd-f5da" value="160.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9d32-28ba-60c6-6911" name="Flesh Hounds" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="64c8-99cc-b517-c173" type="atLeast"/>
+          </conditions>
+        </modifier>
+        <modifier type="add" field="category" value="3b0e-83ed-ed79-10e3">
+          <conditions>
+            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d07f-a7ee-68a2-f17c" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="727a-d933-f8c8-4e20" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="ef12-7476-8829-327f" name="Khorne" hidden="false" targetId="5d86-ceb8-2c7e-23da" primary="false"/>
+        <categoryLink id="ecaf-9cde-0155-3f28" name="New CategoryLink" hidden="false" targetId="ba7c-22cb-4f67-36f0" primary="true"/>
+        <categoryLink id="5a83-eb08-2398-d4d4" name="Beasts" hidden="false" targetId="3ffb-b12f-27e4-9471" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="e9e0-072a-9055-0945" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="eef8-0c30-628c-d9b9">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ad00-93a4-28b9-e681" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7b56-be7a-0473-d16a" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="eef8-0c30-628c-d9b9" name="Unit Size 5" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="c597-7c48-b1fd-f5da" value="70.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="063f-d687-67fa-3923" name="Unit Size 10" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="c597-7c48-b1fd-f5da" value="140.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="c597-7c48-b1fd-f5da" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5926-7bb9-21d0-e2a8" name="Flamers" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4303-5251-d226-37b2" type="atLeast"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d3d0-8a71-3993-a2f2" type="atLeast"/>
+          </conditions>
+        </modifier>
+        <modifier type="add" field="category" value="3b0e-83ed-ed79-10e3">
+          <conditions>
+            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d07f-a7ee-68a2-f17c" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="dc96-3341-0a11-2491" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="6794-76fd-84f6-0110" name="Infantry" hidden="false" targetId="30a3-f35e-ddbe-a643" primary="false"/>
+        <categoryLink id="382a-88f7-0b37-9e54" name="Tzeentch" hidden="false" targetId="7048-5134-9a26-24cf" primary="false"/>
+        <categoryLink id="e3ef-940e-b65b-7b2a" name="New CategoryLink" hidden="false" targetId="ba7c-22cb-4f67-36f0" primary="true"/>
+        <categoryLink id="9e37-dc66-fe77-0d55" name="Fly" hidden="false" targetId="3390-2efa-78a1-5e24" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="51a4-c0b3-11f0-b124" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="210b-f03e-1167-eff4">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="03a1-3aee-cfa5-4044" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5946-77fe-0b7f-4575" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="210b-f03e-1167-eff4" name="Unit Size 3" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="c597-7c48-b1fd-f5da" value="65.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="6a17-af27-8f39-1fb4" name="Unit Size 6" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="c597-7c48-b1fd-f5da" value="130.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry id="ae39-f9ba-840b-4aed" name="Pink Horrors" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4303-5251-d226-37b2" type="atLeast"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d3d0-8a71-3993-a2f2" type="atLeast"/>
+          </conditions>
+        </modifier>
+        <modifier type="add" field="category" value="3b0e-83ed-ed79-10e3">
+          <conditions>
+            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d07f-a7ee-68a2-f17c" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="6.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="de9c-8a9c-d660-1a52" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="be82-1436-c593-21d3" name="Infantry" hidden="false" targetId="30a3-f35e-ddbe-a643" primary="false"/>
+        <categoryLink id="0d78-285f-e039-9747" name="Tzeentch" hidden="false" targetId="7048-5134-9a26-24cf" primary="false"/>
+        <categoryLink id="6f0b-c162-35d1-a55e" name="New CategoryLink" hidden="false" targetId="ba7c-22cb-4f67-36f0" primary="true"/>
+        <categoryLink id="1e57-f930-0110-c1db" name="Battleline" hidden="false" targetId="1d18-1359-5a76-643d" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="051f-7bd9-46a7-fb7f" name="Instrument of Chaos" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="32cb-f181-788b-a4c5" type="max"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry id="4875-e4fb-3b1a-5763" name="Daemonic Icon" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="37c5-71ec-c04c-05f2" type="max"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="c597-7c48-b1fd-f5da" value="140.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="991b-b6fd-c6ac-06c1" name="Blue Horrors" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4303-5251-d226-37b2" type="atLeast"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d3d0-8a71-3993-a2f2" type="atLeast"/>
+          </conditions>
+        </modifier>
+        <modifier type="add" field="category" value="3b0e-83ed-ed79-10e3">
+          <conditions>
+            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d07f-a7ee-68a2-f17c" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="6.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="3615-af9b-6125-644d" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="6b76-ee2d-6d88-c6d1" name="Infantry" hidden="false" targetId="30a3-f35e-ddbe-a643" primary="false"/>
+        <categoryLink id="371b-adf5-b52a-b85d" name="Tzeentch" hidden="false" targetId="7048-5134-9a26-24cf" primary="false"/>
+        <categoryLink id="e90b-6040-592a-3445" name="New CategoryLink" hidden="false" targetId="ba7c-22cb-4f67-36f0" primary="true"/>
+        <categoryLink id="583d-0c7d-c26e-059c" name="Battleline" hidden="false" targetId="1d18-1359-5a76-643d" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="c597-7c48-b1fd-f5da" value="125.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3fa5-8c98-3554-2039" name="Screamers" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4303-5251-d226-37b2" type="atLeast"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d3d0-8a71-3993-a2f2" type="atLeast"/>
+          </conditions>
+        </modifier>
+        <modifier type="add" field="category" value="3b0e-83ed-ed79-10e3">
+          <conditions>
+            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d07f-a7ee-68a2-f17c" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5ddb-3b52-0dfc-3379" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="cf40-620b-6b72-125e" name="Infantry" hidden="false" targetId="30a3-f35e-ddbe-a643" primary="false"/>
+        <categoryLink id="29bd-a2a5-aabb-add5" name="Tzeentch" hidden="false" targetId="7048-5134-9a26-24cf" primary="false"/>
+        <categoryLink id="b5ab-2bda-c0d5-dcb2" name="New CategoryLink" hidden="false" targetId="ba7c-22cb-4f67-36f0" primary="true"/>
+        <categoryLink id="5659-7c99-dcb4-c9cb" name="Battleline" hidden="false" targetId="1d18-1359-5a76-643d" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="7e4c-71d3-d296-62cc" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="4439-3842-7180-0df7">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a120-c3ff-ea7b-cde4" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e3e3-0232-e156-fdd6" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="4439-3842-7180-0df7" name="Unit Size 3" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="c597-7c48-b1fd-f5da" value="90.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="45d3-fb20-e9e7-24f8" name="Unit Size 6" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="c597-7c48-b1fd-f5da" value="180.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry id="a8a9-22ac-9e96-1164" name="Plaguebearers" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d3d0-8a71-3993-a2f2" type="atLeast"/>
+          </conditions>
+        </modifier>
+        <modifier type="add" field="category" value="3b0e-83ed-ed79-10e3">
+          <conditions>
+            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d07f-a7ee-68a2-f17c" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="6.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="c8e3-5acc-5fc6-dcc7" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="d452-f0cc-5006-e5e0" name="Infantry" hidden="false" targetId="30a3-f35e-ddbe-a643" primary="false"/>
+        <categoryLink id="c353-d954-8472-aa17" name="New CategoryLink" hidden="false" targetId="ba7c-22cb-4f67-36f0" primary="true"/>
+        <categoryLink id="5848-2e52-d830-6f3e" name="Battleline" hidden="false" targetId="1d18-1359-5a76-643d" primary="false"/>
+        <categoryLink id="cb24-ca68-e8ed-d44b" name="Nurgle" hidden="false" targetId="d088-3fe1-3372-8544" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="8245-1786-ab31-cb64" name="Daemonic Icon" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3f8f-21d6-50fc-f371" type="max"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry id="7b5e-0de6-fca4-4e1f" name="Instrument of Chaos" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1551-c9aa-978b-389b" type="max"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="c597-7c48-b1fd-f5da" value="145.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8a19-7274-c506-87ad" name="Beasts of Nurgle" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d3d0-8a71-3993-a2f2" type="atLeast"/>
+          </conditions>
+        </modifier>
+        <modifier type="add" field="category" value="3b0e-83ed-ed79-10e3">
+          <conditions>
+            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d07f-a7ee-68a2-f17c" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="fcba-f167-3aae-b6b1" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="06b7-6083-1bca-5a69" name="New CategoryLink" hidden="false" targetId="ba7c-22cb-4f67-36f0" primary="true"/>
+        <categoryLink id="b4b6-3a07-9348-66fd" name="Nurgle" hidden="false" targetId="d088-3fe1-3372-8544" primary="false"/>
+        <categoryLink id="0660-95f4-a5d4-8144" name="Beasts" hidden="false" targetId="3ffb-b12f-27e4-9471" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="92c1-c922-d735-1510" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="f217-0dcf-28cc-0b66">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1d96-3eea-8ac3-e3dc" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="32e7-e323-6ec2-17d8" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="f217-0dcf-28cc-0b66" name="Unit Size 1" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="c597-7c48-b1fd-f5da" value="75.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="fba6-a0fb-7224-4419" name="Unit Size 2" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="c597-7c48-b1fd-f5da" value="150.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="c597-7c48-b1fd-f5da" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="afd4-eda3-0ae1-65e2" name="Daemonettes" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5333-eb0f-b615-0a89" type="atLeast"/>
+          </conditions>
+        </modifier>
+        <modifier type="add" field="category" value="3b0e-83ed-ed79-10e3">
+          <conditions>
+            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d07f-a7ee-68a2-f17c" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="6.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="76b2-e45c-3c1e-4a34" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="60bc-af45-d036-9ec2" name="Infantry" hidden="false" targetId="30a3-f35e-ddbe-a643" primary="false"/>
+        <categoryLink id="1e2e-3f9e-c715-71ff" name="New CategoryLink" hidden="false" targetId="ba7c-22cb-4f67-36f0" primary="true"/>
+        <categoryLink id="bcb8-04a0-3613-e753" name="Battleline" hidden="false" targetId="1d18-1359-5a76-643d" primary="false"/>
+        <categoryLink id="7184-1ebe-92ee-8448" name="Slaanesh" hidden="false" targetId="6028-8efc-f7e7-237d" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="58db-ecbd-7804-ac1a" name="Daemonic Icon" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ead7-b08c-bd18-6d3c" type="max"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry id="caf0-cb04-5682-1a5b" name="Instrument of Chaos" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="48fa-4cc5-9e46-6ac9" type="max"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="c597-7c48-b1fd-f5da" value="140.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup id="91a8-7602-4295-3187" name="Enhancements" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="6bcf-ff55-c2ab-63e7" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4790-3cf3-34a9-2fdb" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="7770-356e-6bbd-bf9e" name="A&apos;rgath, the King of Blades" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5d86-ceb8-2c7e-23da" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="e4be-2c35-1ff9-74ca" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="c597-7c48-b1fd-f5da" value="20.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="30a1-bb9e-4678-a981" name="The Everstave" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7048-5134-9a26-24cf" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="f639-4aa5-758d-5089" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="c597-7c48-b1fd-f5da" value="25.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="5b1b-1250-8e66-3653" name="Soulstealer" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6028-8efc-f7e7-237d" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9a88-d752-b322-4177" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="c597-7c48-b1fd-f5da" value="15.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="b67f-9166-e214-8da3" name="The Endless Gift" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d088-3fe1-3372-8544" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="fca3-2676-c0b0-5311" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="c597-7c48-b1fd-f5da" value="30.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+</catalogue>

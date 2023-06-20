@@ -51,6 +51,7 @@
     </categoryEntry>
     <categoryEntry id="3b0e-83ed-ed79-10e3" name="Bodyguard" hidden="false"/>
     <categoryEntry id="d07f-a7ee-68a2-f17c" name="Leader" hidden="false"/>
+    <categoryEntry id="1d18-1359-5a76-643d" name="Battleline" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="b919-a06e-7886-a1b0" name="Detachment" hidden="false">

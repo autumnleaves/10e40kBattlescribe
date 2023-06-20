@@ -3,5 +3,6 @@
   <dataIndexEntries>
     <dataIndexEntry filePath="Warhammer 40,000 10th Edition.gstz" dataType="gamesystem" dataId="508d-8863-3693-0919" dataName="Warhammer 40,000 10th Edition" dataBattleScribeVersion="2.03" dataRevision="1"/>
     <dataIndexEntry filePath="Necrons.catz" dataType="catalogue" dataId="8181-de3d-2104-87f0" dataName="Necrons" dataBattleScribeVersion="2.03" dataRevision="1"/>
+    <dataIndexEntry filePath="Chaos Daemons.catz" dataType="catalogue" dataId="7936-cca5-33a3-98ab" dataName="Chaos Daemons" dataBattleScribeVersion="2.03" dataRevision="1"/>
   </dataIndexEntries>
 </dataIndex>
